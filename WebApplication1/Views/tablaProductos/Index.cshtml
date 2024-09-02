@@ -1,0 +1,157 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<div class="container">
+
+    <div class="row ">
+        <div class="col-lg-12">
+            <div class="row">
+                <h2>
+                    Lista <span class="fw-300"><i>Productos</i></span>
+                </h2>
+
+            </div>
+            <div class="row">
+                @*<div class="panel-toolbar"><button class="btn btn-xs btn-primary waves-effect waves-themed w-75 right-5" id="btnMuestraModal" data-toggle="modal" data-target="#modalProductos"><span class="fal fa-user-plus"></span> Alta Productos</button></div>*@
+                <div class="panel-toolbar"><button class="btnMuestraAltaProducto btn-xs btn-primary waves-effect waves-themed w-75 right-5" " ><span class="fal fa-user-plus"></span> Alta Productos</button></div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="row">
+                <!-- datatable start -->
+                <table id="c" class="table table-bordered table-hover table-striped w-100">
+                    <thead class="bg-color-grey">
+                        <tr>
+                            <th>Nombre Producto </th>
+                            <th>Clave Producto</th>
+                            <th>Precio</th>
+                            <th>Categoria</th>
+                            <th>Subcategoria</th>
+                            <th>Oferta</th>
+                            <th>Opciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ViewBag.bandejaProductos)
+                        {
+                            <tr>
+
+                                <td>@item.NomProducto</td>
+                                <td>@item.ClaveProducto</td>
+                                <td>$@item.Precio </td>
+                                <td>@item.categoria</td>
+                                <td>@item.subCategoria</td>
+                                <td>@item.oferta</td>
+                                <td>
+                                    <button class="btnEditar btn-sm btn-primary btn-icon waves-effect waves-themed w-25" id="@item.folio" type="button"><i class="fal fa-edit"></i></button>
+                                    <button class="btnEliminar btn-sm btn-primary btn-icon waves-effect waves-themed w-25" id="@item.folio" type="button"><i class="fal fa-trash"></i></button>
+                                </td>
+                            </tr>
+
+
+                        }
+
+                    </tbody>
+
+                </table>
+                <!-- datatable end -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Large -->
+<div class="modal fade " id="modalProductos" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary-500">
+                <h5 class="modal-title">Alta Productos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fal fa-times"></i></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="formArticulos" novalidate="" autocomplete="off">
+                    <div class="panel-content">
+                        <div class="form-row">
+                            <div class="col-md-4 mb-2">
+                                <label class="form-label" for="validationDefault03">Nombre</label>
+                                <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Sillas" required>
+                            </div>
+                            <div class="col-md-4 mb-2">
+                                <label class="form-label" for="validationDefault03">Unidades</label>
+                                <input type="text" name="unidades" class="form-control" id="unidades" placeholder="20" required>
+
+                            </div>
+                            <div class="col-md-4 mb-2">
+
+                                <label class="form-label" for="validationDefault02">Precio Unitario</label>
+                                <input type="text" class="form-control" id="precioUnitario" placeholder="3" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <input type="hidden" class="form-control" id="numHide" value="">
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" id="btnGuardar" class="btn btn-primary">Guardar</button>
+                <button type="button" id="btnActualizar" class="btn btn-primary" style="display:none">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="VentanaConfirmacion" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    Ventana de Confirmación
+                    <small class="m-0 text-muted">
+                        <input type="hidden" id="numFolio" />
+                    </small>
+                </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fal fa-times"></i></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ¿ Esta seguro de Eliminar el producto?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary w-auto h-auto" data-dismiss="modal">Cerrar</button>
+                <button type="button" id="btnAceptarEliminar" class="btn btn-primary w-auto h-auto">Eliminar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<script>
+    $(document).ready(function () {
+        $('#dt-Productos').dataTable(
+            {
+                responsive: true
+            });
+
+        $('.js-thead-colors a').on('click', function () {
+            var theadColor = $(this).attr("data-bg");
+            console.log(theadColor);
+            $('#dt-Productos thead').removeClassPrefix('bg-').addClass(theadColor);
+        });
+
+        $('.js-tbody-colors a').on('click', function () {
+            var theadColor = $(this).attr("data-bg");
+            console.log(theadColor);
+            $('#dt-Productos').removeClassPrefix('bg-').addClass(theadColor);
+        });
+
+    });
+</script>*@

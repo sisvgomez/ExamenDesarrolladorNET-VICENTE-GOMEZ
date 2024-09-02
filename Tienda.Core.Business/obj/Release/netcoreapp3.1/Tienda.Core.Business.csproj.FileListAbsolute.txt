@@ -1,0 +1,13 @@
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\bin\Release\netcoreapp3.1\Tienda.Core.Business.deps.json
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\bin\Release\netcoreapp3.1\Tienda.Core.Business.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\bin\Release\netcoreapp3.1\Tienda.Core.Business.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\bin\Release\netcoreapp3.1\Tienda.Core.DataAccess.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\bin\Release\netcoreapp3.1\Tienda.Core.Entities.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\bin\Release\netcoreapp3.1\Tienda.Core.DataAccess.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\bin\Release\netcoreapp3.1\Tienda.Core.Entities.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\obj\Release\netcoreapp3.1\Tienda.Core.Business.csprojAssemblyReference.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\obj\Release\netcoreapp3.1\Tienda.Core.Business.AssemblyInfoInputs.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\obj\Release\netcoreapp3.1\Tienda.Core.Business.AssemblyInfo.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\obj\Release\netcoreapp3.1\Tienda.Core.Business.csproj.CopyComplete
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\obj\Release\netcoreapp3.1\Tienda.Core.Business.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Business\obj\Release\netcoreapp3.1\Tienda.Core.Business.pdb

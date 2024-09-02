@@ -1,0 +1,128 @@
+﻿@model Tienda.Core.Entities.Producto;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutPinturas.cshtml";
+}
+
+<div role="main" class="main calc-height initial-height" id="main">
+    <div class="container">
+        <div class="row mt-4 mb-4">
+            <div class="col">
+                <article class="our-blog-item blog-post mt-3">
+                    @*<span class="image-wrapper">
+                            <img src="img/demos/photography/blog/blog-post-1.jpg" alt="" class="img-fluid" />
+                        </span>*@
+                    <span class="category text-uppercase bg-color-quaternary">
+                        Landscape
+                    </span>
+                    <div class="post-infos">
+
+                        <span class="post-date">
+                            @DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")
+                        </span>
+                        <h1 class="font-weight-normal mb-4 color-primary-100">
+                            <span>
+                                @Model.NomProducto
+                            </span>
+                            <br />
+                            <span class="amount">$@Model.Precio</span>
+
+                        </h1>
+
+                        <div class="owl-carousel owl-theme nav-center custom-carousel-dots-style pt-4" data-plugin-options="{'items': 3, 'responsive': {'479': {'items': 1}, '979': {'items': 2}, '1199': {'items': 2}}, 'margin': 10, 'loop': true, 'dots': true, 'nav': false}">
+                            <div>
+                                    <a href="~/img/products/Empresa/@ViewBag.empresa/@Model.Imagen" class="text-decoration-none" >
+                                        <img src="~/img/products/Empresa/@ViewBag.empresa/@Model.Imagen" alt="" class="img-fluid" />
+                                    </a>
+                                </div>
+                           
+                            <div>
+                                <a href="~/img/products/Empresa/@ViewBag.empresa/@Model.Imagen2" class="text-decoration-none">
+                                   
+                                    <img src="~/img/products/Empresa/@ViewBag.empresa/@Model.Imagen2" alt="" class="img-fluid" />
+                                </a>
+                            </div>
+                            <div>
+                                <a href="~/img/products/Empresa/@ViewBag.empresa/@Model.Imagen3" class="text-decoration-none">
+                                    <img src="~/img/products/Empresa/@ViewBag.empresa/@Model.Imagen3" alt="" class="img-fluid" />
+                                </a>
+                            </div>
+                          
+                         
+                        </div>
+
+
+                        <div class="testimonial mb-0">
+                            <blockquote>
+                                <h3>
+                                    <p>"@Model.Descripcion   </p>
+                                    <span class="amount">$@Model.Precio</span>
+                                </h3>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial mb-0" >
+                            <a href="javascript: history.go(-1)" style="color:white;background-color:black">Regresar</a>
+                        </div>
+
+                    </div>
+                    <div class="author-info bg-color-primary">
+                        <div class="row">
+                            <div class="col-lg-2 col-lg-offset-1 text-center">
+                                <img src="img/demos/photography/blog/blog-post-author-photo.jpg" alt="" class="img-fluid border-rounded mx-auto" />
+                            </div>
+                            <div class="col-lg-8">
+                                <h3 class="text-color-light font-weight-bold mb-1 text-4">Lucia Vázquez Vázquez</h3>
+                                <span class="designation"><font style="color:#efb810;background-color:black">Pintora de Arte</font></span>
+                                <p class="mt-3">
+                                    Con más de 15 años de experiencia, Lucy pinta tus ideas esta comprometida con sus clientes ofreciéndoles calidad, puntualidad y precio en sus productos. Contamos con equipo y materiales necesarios para cumplir con los requisitos y expectativas del cliente, garantizando de esta manera el mejor servicio y satisfacción del cliente, porque para nosotros el cliente es lo más importante.
+                                </p> <br /><font style="color:#efb810;background-color:black">Misión:</font> Crear y ser la mejor opción para nuestros clientes en calidad y precio, nosotros pintamos tus ideas, escuchamos tus necesidades y nos adaptamos a ellas.</p>
+          
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<!-- Vendor -->
+<script src="~/vendor/jquery/jquery.min.js"></script>
+<script src="~/vendor/jquery.appear/jquery.appear.min.js"></script>
+<script src="~/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="~/vendor/jquery.cookie/jquery.cookie.min.js"></script>
+<script src="~/vendor/popper/umd/popper.min.js"></script>
+<script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="~/vendor/common/common.min.js"></script>
+<script src="~/vendor/jquery.validation/jquery.validate.min.js"></script>
+<script src="~/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+<script src="~/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+<script src="~/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+<script src="~/vendor/isotope/jquery.isotope.min.js"></script>
+<script src="~/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="~/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="~/vendor/vide/jquery.vide.min.js"></script>
+<script src="~/vendor/vivus/vivus.min.js"></script>
+<script src="~/vendor/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+
+<!-- Theme Base, Components and Settings -->
+<script src="~/js/theme.js"></script>
+
+<!-- Current Page Vendor and Views -->
+<script src="~/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script src="~/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- Current Page Vendor and Views -->
+<script src="~/js/views/view.contact.js"></script>
+
+<!-- Demo -->
+<script src="~/js/demos/demo-photography.js"></script>
+
+<!-- Theme Custom -->
+<script src="~/js/custom.js"></script>
+
+<!-- Theme Initialization Files -->
+<script src="~/js/theme.init.js"></script>
+<script src="~/ScriptsPage/jsPinturas.js"></script>

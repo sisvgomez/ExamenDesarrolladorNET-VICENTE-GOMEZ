@@ -1,0 +1,305 @@
+﻿
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutInicial.cshtml";
+    //Layout = null;
+}
+
+@*<h1>Productos</h1>*@
+
+
+
+    <body onload="CargarProducto('0','0','a')">
+
+        <div class="wrapper">
+            <div role="main" class="main shop py-4">
+                @*<div class="container">*@
+
+                    <div class="row">
+                        @*MENU IZQUIERDO*@
+                        <div class="col-lg-2" style="background-color:black">
+
+                            <aside class="sidebar">
+
+
+                                <div class="header-nav collapse">
+
+                                    <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
+
+                                        <nav>
+                                            <h5 class="font-weight-bold pt-3 text-color-default">Categorias</h5>
+                                            <ul class="nav nav-pills" id="mainNav">
+
+                                                <li class="dropdown">
+                                                    <a class="nav-link text-1" href="#">Sublimación</a>
+
+                                                    <ul class="dropdown-menu">
+                                                        @foreach (var item in ViewBag.Categorias)
+                                                        {
+                                                            @if (@item.categoria == "Sublimación")
+                                                            {
+                                                                <li><a href="javascript:CargarProducto('@item.idCategoria','@item.idSubCategoria','0')">@item.subCategoria</a></li>
+                                                            }
+                                                        }
+                                                    </ul>
+
+                                                </li>
+                                            </ul>
+                                            <ul class="nav nav-pills" id="mainNav">
+                                                <li class="dropdown">
+                                                    <a class="nav-link text-1" href="#">Serigrafia</a>
+
+                                                    <ul class="dropdown-menu">
+                                                        @foreach (var item in ViewBag.Categorias)
+                                                        {
+                                                            @if (@item.categoria == "Serigrafia")
+                                                            {
+                                                                <li><a href="javascript:CargarProducto('@item.idCategoria','@item.idSubCategoria','0')">@item.subCategoria</a></li>
+                                                            }
+                                                        }
+                                                    </ul>
+
+                                                </li>
+                                            </ul>
+                                            <ul class="nav nav-pills" id="mainNav">
+                                                <li class="dropdown">
+                                                    <a class="nav-link text-1" href="#">Impresión Digital</a>
+
+                                                    <ul class="dropdown-menu">
+                                                        @foreach (var item in ViewBag.Categorias)
+                                                        {
+                                                            @if (@item.categoria == "Impresión Digital")
+                                                            {
+                                                                <li><a href="javascript:CargarProducto('@item.idCategoria','@item.idSubCategoria','0')">@item.subCategoria</a></li>
+                                                            }
+                                                        }
+                                                    </ul>
+
+                                                </li>
+                                            </ul>
+
+
+
+                                            <div><h5 class="font-weight-bold pt-5 text-color-default">Tags</h5></div>
+                                            <div class="mb-3 pb-1">
+                                                <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Tarjetas</span></a>
+                                                <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Invitaciones</span></a>
+                                                <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Plumas</span></a>
+                                                <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Ceniceros</span></a>
+                                                <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Libros</span></a>
+
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-5">
+                                    <div class="col">
+                                        <h5 class="font-weight-bold pt-5 text-color-default">Otros Productos</h5>
+                                        <ul class="simple-post-list">
+                                            <li>
+                                                <div class="post-image">
+                                                    <div class="d-block">
+                                                        <a href="shop-product-sidebar-left.html">
+                                                            <img alt="" width="60" height="60" class="img-fluid" src="~/img/products/empresa/CYS/MODT08.jpg">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="post-info">
+                                                    <a href="shop-product-sidebar-left.html">Vasos</a>
+                                                    <div class="post-meta text-dark font-weight-semibold">
+                                                        $299
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="post-image">
+                                                    <div class="d-block">
+                                                        <a href="shop-product-sidebar-left.html">
+                                                            <img alt="" width="60" height="60" class="img-fluid" src="~/img/products/empresa/CYS/MODT04.jpg">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="post-info">
+                                                    <a href="shop-product-sidebar-left.html">Facturas</a>
+                                                    <div class="post-meta text-dark font-weight-semibold">
+                                                        $199
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="post-image">
+                                                    <div class="d-block">
+                                                        <a href="shop-product-sidebar-left.html">
+                                                            <img alt="" width="60" height="60" class="img-fluid" src="~/img/products/empresa/CYS/MODT02.jpg">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="post-info">
+                                                    <a href="shop-product-sidebar-left.html">Pantuflas</a>
+                                                    <div class="post-meta text-dark font-weight-semibold">
+                                                        $49
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+
+                        <div id="collg9" class="col-lg-8">
+                            @*Contenido*@
+
+                            <div id="cardbody" class="card-body center">
+                                <div id="masory" class="masonry-loader masonry-loader-showing">
+                                    <div id="row" class="row products product-thumb-info-list" data-plugin-masonry data-plugin-options="{'layoutMode': 'fitRows'}">
+
+
+                                        <table align="center">
+                                            <tr>
+                                                <td>
+                                                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina1">
+                                                        <div id="card1" class="card">
+                                                            <div id="front1" class="front"></div>
+                                                            <div id="back1" class="back"></div>
+                                                        </div>
+                                                    </div>
+
+                                                </td>
+                                                <td>
+                                                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina2">
+                                                        <div id="card2" class="card">
+                                                            <div id="front2" class="front"></div>
+                                                            <div id="back2" class="back"></div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina3">
+                                                        <div id="card3" class="card">
+                                                            <div id="front3" class="front"></div>
+                                                            <div id="back3" class="back"></div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                @*<td>
+                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina4">
+                        <div id="card4" class="card">
+                            <div id="front4" class="front"></div>
+                            <div id="back4" class="back"></div>
+                        </div>
+                    </div>
+                </td>*@
+                                            </tr>
+                                            @*<tr>
+                <td>
+                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina4">
+                        <div id="card4" class="card">
+                            <div id="front4" class="front"></div>
+                            <div id="back4" class="back"></div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina5">
+                        <div id="card5" class="card">
+                            <div id="front5" class="front"></div>
+                            <div id="back5" class="back"></div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina6">
+                        <div id="card6" class="card">
+                            <div id="front6" class="front"></div>
+                            <div id="back6" class="back"></div>
+                        </div>
+                    </div>
+                </td>
+
+            </tr>*@
+                                        </table>
+                                        <div id="controls">
+                                            <button class="btnIzq btn-sm btn-primary btn-icon waves-effect waves-themed" id="prev" type="button"><i class="fal fa-arrow-to-left"></i></button>
+                                            <button class="btnDer btn-sm btn-primary btn-icon waves-effect waves-themed" id="next" type="button"><i class="fal fa-arrow-to-right"></i></button>
+                                            @*<button id="prev" class="disabled" disabled>&lt;<i class="fal fa-arrow-to-right"></i></button>
+            <button id="next">&gt;</button>*@
+                                            <div id="np" class="pag">Pág.<span id="pag"></span></div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Columna derecha-->
+                        <div class="col-lg-2">
+                            <div class="row mb-5">
+                                <div class="col">
+                                    <h5 class="font-weight-bold pt-5 text-color-default">Otros Productos</h5>
+                                    <ul class="simple-post-list">
+                                        <li>
+                                            <div class="post-image">
+                                                <div class="d-block">
+                                                    <a href="shop-product-sidebar-left.html">
+                                                        <img alt="" width="60" height="60" class="img-fluid" src="~/img/products/empresa/CYS/MODT08.jpg">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="post-info">
+                                                <a href="shop-product-sidebar-left.html">Vasos</a>
+                                                <div class="post-meta text-dark font-weight-semibold">
+                                                    $299
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="post-image">
+                                                <div class="d-block">
+                                                    <a href="shop-product-sidebar-left.html">
+                                                        <img alt="" width="60" height="60" class="img-fluid" src="~/img/products/empresa/CYS/MODT04.jpg">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="post-info">
+                                                <a href="shop-product-sidebar-left.html">Facturas</a>
+                                                <div class="post-meta text-dark font-weight-semibold">
+                                                    $199
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="post-image">
+                                                <div class="d-block">
+                                                    <a href="shop-product-sidebar-left.html">
+                                                        <img alt="" width="60" height="60" class="img-fluid" src="~/img/products/empresa/CYS/MODT02.jpg">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="post-info">
+                                                <a href="shop-product-sidebar-left.html">Pantuflas</a>
+                                                <div class="post-meta text-dark font-weight-semibold">
+                                                    $49
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                @*</div>*@
+            </div>
+
+
+        </div>
+        <script src="~/ScriptsPage/jsPaginar.js"></script>
+
+
+
+
+    </body>
+

@@ -1,0 +1,8 @@
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\bin\Release\netcoreapp3.1\Tienda.Core.Entities.deps.json
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\bin\Release\netcoreapp3.1\Tienda.Core.Entities.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\bin\Release\netcoreapp3.1\Tienda.Core.Entities.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\obj\Release\netcoreapp3.1\Tienda.Core.Entities.csprojAssemblyReference.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\obj\Release\netcoreapp3.1\Tienda.Core.Entities.AssemblyInfoInputs.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\obj\Release\netcoreapp3.1\Tienda.Core.Entities.AssemblyInfo.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\obj\Release\netcoreapp3.1\Tienda.Core.Entities.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\obj\Release\netcoreapp3.1\Tienda.Core.Entities.pdb

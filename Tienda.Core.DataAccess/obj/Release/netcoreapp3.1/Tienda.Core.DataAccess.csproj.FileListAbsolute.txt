@@ -1,0 +1,10 @@
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\bin\Release\netcoreapp3.1\Tienda.Core.DataAccess.deps.json
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\bin\Release\netcoreapp3.1\Tienda.Core.DataAccess.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\bin\Release\netcoreapp3.1\Tienda.Core.DataAccess.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Release\netcoreapp3.1\Tienda.Core.DataAccess.csprojAssemblyReference.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Release\netcoreapp3.1\Tienda.Core.DataAccess.AssemblyInfoInputs.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Release\netcoreapp3.1\Tienda.Core.DataAccess.AssemblyInfo.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Release\netcoreapp3.1\Tienda.Core.DataAccess.csproj.CopyComplete
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Release\netcoreapp3.1\Tienda.Core.DataAccess.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Release\netcoreapp3.1\Tienda.Core.DataAccess.pdb

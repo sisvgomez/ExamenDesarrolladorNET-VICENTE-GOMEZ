@@ -1,0 +1,430 @@
+﻿
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_LayoutUna</title>
+    <!-- Basic -->
+    <meta charset="UTF-8">
+
+    <title>Default Layout | Porto Admin - Responsive HTML5 Template 2.2.0</title>
+    <meta name="keywords" content="HTML5 Admin Template" />
+    <meta name="description" content="Porto Admin - Responsive HTML5 Template">
+    <meta name="author" content="okler.net">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Web Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- vendor css -->
+    <link rel="stylesheet" href="~/vendor/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/vendor/animate/animate.css">
+
+
+    <link rel="stylesheet" href="~/vendor/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/vendor/magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="~/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+
+    <link rel="stylesheet" href="~/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="~/vendor/animate/animate.min.css">
+    <link rel="stylesheet" href="~/vendor/simple-line-icons/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="~/vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/vendor/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="~/vendor/bootstrap-star-rating/css/star-rating.min.css">
+    <link rel="stylesheet" href="~/vendor/bootstrap-star-rating/themes/krajee-fas/theme.min.css">
+
+
+
+    <!-- Specific Page vendor css -->
+    <link rel="stylesheet" href="~/vendor/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="~/vendor/jquery-ui/jquery-ui.theme.css" />
+    <link rel="stylesheet" href="~/vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet" href="~/vendor/morris/morris.css" />
+
+    <link rel="stylesheet" media="screen, print" href="~/css/vendors.bundle.css">
+    @*<link rel="stylesheet" media="screen, print" href="~/css/app.bundle.css">*@
+    <link rel="stylesheet" media="screen, print" href="~/css/datatables/datatables.bundle.css">
+
+    <link rel="stylesheet" href="~/vendor/datatables/media/css/dataTables.bootstrap4.css" />
+    <link rel="stylesheet" href="~/vendor/select2/css/select2.css" />
+    <link rel="stylesheet" href="~/vendor/select2-bootstrap-theme/select2-bootstrap.min.css" />
+    <!-- Theme css -->
+    <link rel="stylesheet" href="~/css/theme.css" />
+    <link rel="stylesheet" href="~/css/theme-elements.css">
+    <link rel="stylesheet" href="~/css/theme-blog.css">
+    <link rel="stylesheet" href="~/css/theme-shop.css">
+    <!-- Skin css -->
+    <link rel="stylesheet" href="~/css/skins/default.css" />
+
+    <!-- Theme Custom css -->
+    <link rel="stylesheet" href="~/css/custom.css">
+
+    <!-- Head Libs -->
+    <script src="~/vendor/modernizr/modernizr.js"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="~/img/apple-touch-icon.png">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+    <!-- Web Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <!-- Theme CSS -->
+    <!-- Demo CSS -->
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="~/css/skins/default.css">
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="~/css/custom.css">
+
+    <!-- Head Libs -->
+    <script src="~/vendor/modernizr/modernizr.min.js"></script>
+    <!-- Theme Initialization Files -->
+    <script src="~/js/theme.init.js"></script>
+    <link href="~/css/paginar.css" rel="stylesheet" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <link href="~/css/fijo.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        posicionarMenu();
+
+        $(window).scroll(function () {
+            posicionarMenu();
+        });
+
+        function posicionarMenu() {
+            var altura_del_header = $('.headers').outerHeight(true);
+            var altura_del_menu = $('.menu').outerHeight(true);
+
+            if ($(window).scrollTop() >= altura_del_header) {
+                $('.menu').addClass('fixed');
+                $('.wrapper').css('margin-top', (altura_del_menu) + 'px');
+            } else {
+                $('.menu').removeClass('fixed');
+                $('.wrapper').css('margin-top', '0');
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div class="headers">
+        <a href="../" class="logo">
+            <img src="~/img/cloudware.png" width="100" height="70" alt="C&S" />
+        </a>
+    </div>
+
+    <div class="menu">
+        <div class="header-nav collapse">
+            <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
+                <nav>
+
+                    <a href="../" class="logo">
+                        <img src="~/img/cloudware.png" width="60" height="40" alt="C&S" />
+                    </a>
+
+                </nav>
+            </div>
+        </div>
+
+        <div class="header-right" >
+            
+                <ul class="notifications">
+                    <li>
+
+                        <form class="form-inline active-cyan-4">
+                            <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+                                   aria-label="Search" id="txtBuscar" >
+                            <i class="fas fa-search" aria-hidden="true" id="buscar" ></i>
+                        </form>
+
+                    </li>
+
+                </ul>
+                <ul class="notifications">
+
+
+                    <li>
+                        <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
+                            <i class="fas fa-tasks"></i>
+                            <span class="badge">3</span>
+                        </a>
+
+                        <div class="dropdown-menu notification-menu large">
+                            <div class="notification-title">
+                                <span class="float-right badge badge-default">3</span>
+                                Tasks
+                            </div>
+
+                            <div class="content">
+                                <ul>
+                                    <li>
+                                        <p class="clearfix mb-1">
+                                            <span class="message float-left">Generating Sales Report</span>
+                                            <span class="message float-right text-dark">60%</span>
+                                        </p>
+                                        <div class="progress progress-xs light">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <p class="clearfix mb-1">
+                                            <span class="message float-left">Importing Contacts</span>
+                                            <span class="message float-right text-dark">98%</span>
+                                        </p>
+                                        <div class="progress progress-xs light">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <p class="clearfix mb-1">
+                                            <span class="message float-left">Uploading something big</span>
+                                            <span class="message float-right text-dark">33%</span>
+                                        </p>
+                                        <div class="progress progress-xs light mb-1">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%;"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
+                            <i class="fas fa-envelope"></i>
+                            <span class="badge">4</span>
+                        </a>
+
+                        <div class="dropdown-menu notification-menu">
+                            <div class="notification-title">
+                                <span class="float-right badge badge-default">230</span>
+                                Messages
+                            </div>
+
+                            <div class="content">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="clearfix">
+                                            <figure class="image">
+                                                <img src="~/img/!sample-user.jpg" alt="Joseph Doe Junior" class="rounded-circle" />
+                                            </figure>
+                                            <span class="title">Vicente Gómez </span>
+                                            <span class="message">Lorem ipsum dolor sit.</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="clearfix">
+                                            <figure class="image">
+                                                <img src="~/img/!sample-user.jpg" alt="Joseph Junior" class="rounded-circle" />
+                                            </figure>
+                                            <span class="title">Joseph Junior</span>
+                                            <span class="message truncate">Truncated message. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lacinia orci. Proin vestibulum eget risus non luctus. Nunc cursus lacinia lacinia. Nulla molestie malesuada est ac tincidunt. Quisque eget convallis diam, nec venenatis risus. Vestibulum blandit faucibus est et malesuada. Sed interdum cursus dui nec venenatis. Pellentesque non nisi lobortis, rutrum eros ut, convallis nisi. Sed tellus turpis, dignissim sit amet tristique quis, pretium id est. Sed aliquam diam diam, sit amet faucibus tellus ultricies eu. Aliquam lacinia nibh a metus bibendum, eu commodo eros commodo. Sed commodo molestie elit, a molestie lacus porttitor id. Donec facilisis varius sapien, ac fringilla velit porttitor et. Nam tincidunt gravida dui, sed pharetra odio pharetra nec. Duis consectetur venenatis pharetra. Vestibulum egestas nisi quis elementum elementum.</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="clearfix">
+                                            <figure class="image">
+                                                <img src="~/img/!sample-user.jpg" alt="Joe Junior" class="rounded-circle" />
+                                            </figure>
+                                            <span class="title">Joe Junior</span>
+                                            <span class="message">Lorem ipsum dolor sit.</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="clearfix">
+                                            <figure class="image">
+                                                <img src="~/img/!sample-user.jpg" alt="Joseph Junior" class="rounded-circle" />
+                                            </figure>
+                                            <span class="title">Joseph Junior</span>
+                                            <span class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lacinia orci. Proin vestibulum eget risus non luctus. Nunc cursus lacinia lacinia. Nulla molestie malesuada est ac tincidunt. Quisque eget convallis diam.</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <hr />
+
+                                <div class="text-right">
+                                    <a href="#" class="view-more">View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
+                            <i class="fas fa-bell"></i>
+                            <span class="badge">3</span>
+                        </a>
+
+                        <div class="dropdown-menu notification-menu">
+                            <div class="notification-title">
+                                <span class="float-right badge badge-default">3</span>
+                                Alerts
+                            </div>
+
+                            <div class="content">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="clearfix">
+                                            <div class="image">
+                                                <i class="fas fa-thumbs-down bg-danger"></i>
+                                            </div>
+                                            <span class="title">Server is Down!</span>
+                                            <span class="message">Just now</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="clearfix">
+                                            <div class="image">
+                                                <i class="fas fa-lock bg-warning"></i>
+                                            </div>
+                                            <span class="title">User Locked</span>
+                                            <span class="message">15 minutes ago</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="clearfix">
+                                            <div class="image">
+                                                <i class="fas fa-signal bg-success"></i>
+                                            </div>
+                                            <span class="title">Connection Restaured</span>
+                                            <span class="message">10/10/2017</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <hr />
+
+                                <div class="text-right">
+                                    <a href="#" class="view-more">View All</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+          
+            <span class="separator"></span>
+
+            <div id="userbox" class="userbox">
+                <a href="#" data-toggle="dropdown">
+                    <figure class="profile-picture">
+                        <img src="~/img/!logged-user.jpg" alt="Joseph Doe" class="rounded-circle" data-lock-picture="~/img/!logged-user.jpg" />
+                    </figure>
+                    <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
+
+                        <span class="name">@ViewBag.usuario</span>
+                        <span class="role">@ViewBag.usuario</span>
+                    </div>
+
+                    <i class="fa custom-caret"></i>
+                </a>
+
+                <div class="dropdown-menu">
+                    <ul class="list-unstyled">
+                        <li class="divider"></li>
+                        <li>
+                            <a role="menuitem" tabindex="-1" href="pages-user-profile.html"><i class="fas fa-user"></i> My Profile</a>
+                        </li>
+                        <li>
+                            <a role="menuitem" tabindex="-1" href="#" data-lock-screen="true"><i class="fas fa-lock"></i> Lock Screen</a>
+                        </li>
+                        <li>
+                            <a role="menuitem" tabindex="-1" href="pages-signin.html"><i class="fas fa-power-off"></i> Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+   </div>
+
+    <div class="wrapper">
+        @RenderBody()
+    </div>
+
+    <div id="Footer">
+        <p>This is Footer</p>
+    </div>
+</body>
+</html>
+<!-- Vendor -->
+<script src="~/vendor/jquery-ui/jquery-ui.js"></script>
+<script src="~/vendor/jquery/jquery.min.js"></script>
+<script src="~/vendor/jquery.appear/jquery.appear.min.js"></script>
+<script src="~/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="~/vendor/jquery.cookie/jquery.cookie.min.js"></script>
+<script src="~/vendor/popper/umd/popper.min.js"></script>
+<script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="~/vendor/common/common.min.js"></script>
+<script src="~/vendor/jquery.validation/jquery.validate.min.js"></script>
+<script src="~/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+<script src="~/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+<script src="~/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+<script src="~/vendor/isotope/jquery.isotope.min.js"></script>
+<script src="~/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="~/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="~/vendor/vide/jquery.vide.min.js"></script>
+<script src="~/vendor/vivus/vivus.min.js"></script>
+<script src="~/vendor/bootstrap-star-rating/js/star-rating.min.js"></script>
+<script src="~/vendor/bootstrap-star-rating/themes/krajee-fas/theme.min.js"></script>
+
+<!-- Theme Base, Components and Settings -->
+<script src="~/js/theme.js"></script>
+
+<!-- Current Page Vendor and Views -->
+<script src="~/js/views/view.shop.js"></script>
+
+<!-- Theme Custom -->
+<script src="~/js/custom.js"></script>
+
+<!-- Theme Initialization Files -->
+<script src="~/js/theme.init.js"></script>
+
+<!-- Specific Page vendor -->
+
+<script src="~/vendor/jqueryui-touch-punch/jquery.ui.touch-punch.js"></script>
+<script src="~/vendor/jquery-appear/jquery.appear.js"></script>
+<script src="~/vendor/bootstrap-multiselect/js/bootstrap-multiselect.js"></script>
+<script src="~/vendor/jquery.easy-pie-chart/jquery.easypiechart.js"></script>
+<script src="~/vendor/flot/jquery.flot.js"></script>
+<script src="~/vendor/flot.tooltip/jquery.flot.tooltip.js"></script>
+<script src="~/vendor/flot/jquery.flot.pie.js"></script>
+<script src="~/vendor/flot/jquery.flot.categories.js"></script>
+<script src="~/vendor/flot/jquery.flot.resize.js"></script>
+<script src="~/vendor/jquery-sparkline/jquery.sparkline.js"></script>
+<script src="~/vendor/raphael/raphael.js"></script>
+<script src="~/vendor/morris/morris.js"></script>
+<script src="~/vendor/gauge/gauge.js"></script>
+<script src="~/vendor/snap.svg/snap.svg.js"></script>
+<script src="~/vendor/liquid-meter/liquid.meter.js"></script>
+<script src="~/vendor/jqvmap/jquery.vmap.js"></script>
+<script src="~/vendor/jqvmap/data/jquery.vmap.sampledata.js"></script>
+
+
+<!-- Theme Base, Components and Settings -->
+<script src="~/js/theme.js"></script>
+
+<!-- Theme Custom -->
+<script src="~/js/custom.js"></script>
+
+<!-- Theme Initialization Files -->
+<script src="~/js/theme.init.js"></script>
+
+<!-- Examples -->
+<script src="~/js/examples/examples.header.menu.js"></script>
+<script src="~/js/examples/examples.dashboard.js"></script>

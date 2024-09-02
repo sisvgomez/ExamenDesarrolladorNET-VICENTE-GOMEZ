@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutPinturas.cshtml";
+}
+
+
+<div role="main" class="main">
+
+
+    <div class="container py-4">
+
+        <div class="row py-4 mb-4">
+            <div class="col">
+                <div class="image-hotspots">
+                    <center><img src="~/img/products/empresa/LUCY/collage6.jpg" class="img-fluid" /></center>
+                    @{int posiciony = 0;
+                        int posicionx = 0; }
+                    @if (ViewBag.IdProducto == null)
+                    {
+
+                        @foreach (var itemC in ViewBag.Categorias)
+                        {
+                            posiciony = 10;
+                            posicionx += 15;
+                            @foreach (var itemS in ViewBag.subCategorias)
+                            {
+                                @if (@itemC.idCategoria == @itemS.idCategoria)
+                                {
+                                    posiciony += 10;
+                                    <a href="javascript:CargarProductoPinturas('@itemC.idCategoria','@itemS.idSubCategoria','0')" style="left: @posicionx%; top: @posiciony%;" class="image-hotspot">
+                                        <strong><font style="color:#efb810;background-color:black">@itemS.subCategoria.Replace(" ", "")</font></strong>
+                                    </a>
+                                }}
+                        }
+                    }
+                    @{ posiciony += 10;}
+                    <a href="javascript:CargarProductoPinturas('0','0','0')" style="left: @posicionx%; top: @posiciony%;" class="image-hotspot">
+                        <strong><font style="color:fuchsia;background-color:black">NUEVAS</font></strong>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row mt-4 mb-4">
+        <div class="col">
+            <article class="our-blog-item blog-post mt-3">
+                <div class="author-info bg-color-primary">
+                    <div class="row">
+                        <div class="col-lg-2 col-lg-offset-1 text-center">
+                            <img src="img/demos/photography/blog/blog-post-author-photo.jpg" alt="" class="img-fluid border-rounded mx-auto" />
+                        </div>
+                        <div class="col-lg-8">
+                            <h3 class="text-color-light font-weight-bold mb-1 text-4">Lucia Vázquez Vázquez</h3>
+                            <span class="designation"><font style="color:#efb810;background-color:black">Pintora de Arte</font></span>
+                            <p class="mt-3">
+                                Con más de 15 años de experiencia, Lucy pinta tus ideas esta comprometida con sus clientes ofreciéndoles calidad, puntualidad y precio en sus productos. Contamos con equipo y materiales necesarios para cumplir con los requisitos y expectativas del cliente, garantizando de esta manera el mejor servicio y satisfacción del cliente, porque para nosotros el cliente es lo más importante.
+                            </p> <br /><font style="color:#efb810;background-color:black">Misión:</font> Crear y ser la mejor opción para nuestros clientes en calidad y precio, nosotros pintamos tus ideas, escuchamos tus necesidades y nos adaptamos a ellas.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <script src="~/ScriptsPage/jsPinturas.js"></script>
+                </article>
+</div></div>
+</div>

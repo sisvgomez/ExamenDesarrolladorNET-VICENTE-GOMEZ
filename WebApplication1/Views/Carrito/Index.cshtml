@@ -1,0 +1,212 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    //Layout = null;
+}
+
+
+
+    <div role="main" class="main shop py-4">
+        @{
+            Double totalS = 0;
+        }
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    
+                        <form enctype="multipart/form-data" method="post" class="cart" action="~/Prueba">
+                            <button type="submit" class="btn btn-link text-uppercase w-auto h-50">Ver mas productos</button>
+                        </form>
+                    
+                       
+                    
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+
+                        <div class="featured-boxes">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="featured-box featured-box-primary text-left mt-2">
+                                        <div class="box-content">
+                                            <form method="post" action="">
+                                                <table class="shop_table cart" id="dt-listaPedidos">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="product-remove">
+                                                                &nbsp;
+                                                            </th>
+                                                            <th class="product-thumbnail">
+                                                                &nbsp;
+                                                            </th>
+                                                            <th class="product-name">
+                                                                Producto
+                                                            </th>
+                                                            <th class="product-descripción">
+                                                                Descripción
+                                                            </th>
+                                                            <th class="product-price">
+                                                                Precio/Unidad
+                                                            </th>
+                                                            <th class="product-quantity">
+                                                                Cantidad
+                                                            </th>
+                                                            <th class="product-subtotal">
+                                                                SubTotal
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+
+                                                        @foreach (var item in ViewBag.listaProductos)
+                                                        {
+                                                            totalS = totalS + Convert.ToDouble(@item.Subtotal);
+                                                            <tr class="cart_table_item">
+                                                                <td class="product-remove">
+                                                                    <a title="Remove this item" class="remove" href="~/Carrito/EliminarProducto?ClaveProducto=@item.ClaveProducto&idLista=@item.idLista">
+                                                                        <i class="fas fa-times"></i>
+                                                                    </a>
+                                                                </td>
+                                                                <td class="product-thumbnail">
+                                                                   
+                                                                        <a href="~/img/products/Empresa/@ViewBag.empresa/@item.Imagen" target="_blank">
+                                                                            <img width="150" height="150" alt="" class="img-fluid" src="~/img/products/Empresa/@ViewBag.empresa/@item.Imagen">
+                                                                        </a>
+</td>
+                                                                <td class="product-name">
+                                                                    <a href="#">@item.Nombre</a>
+                                                                </td>
+                                                                <td class="product-name">
+                                                                    <a href="#">@item.Descripcion</a>
+                                                                </td>
+                                                                <td class="product-price">
+                                                                    <span class="amount">@item.Precio</span>
+                                                                </td>
+                                                                <td class="product-quantity">
+
+                                                                    <div class="quantity">
+                                                                        <form enctype="multipart/form-data" method="post" class="cart" action="~/CrearPedido/CalcularSubtotal">
+                                                                            @*<input type="submit" class="minus" value="-">*@
+                                                                            <input type="text" class="input-text qty text" title="Qty" value=@item.Cantidad name="Cantidad" min="1" step="1" disabled>
+                                                                            <input type="hidden" value=@item.ClaveProducto name="ClaveProducto" />
+                                                                            <input type="hidden" value=@item.Precio name="Precio" />
+                                                                            @*<input type="submit" class="plus" value="+">*@
+                                                                        </form>
+                                                                    </div>
+
+                                                                </td>
+                                                                <td class="product-subtotal">
+                                                                    <span class="amount">$@item.Subtotal </span>
+                                                                </td>
+                                                            </tr>
+                                                        }
+
+                                                    </tbody>
+                                                </table>
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="featured-boxes">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
+                                        <div class="box-content">
+                                            <h4 class="color-primary font-weight-semibold text-4 text-uppercase mb-3">Envio de cotización</h4>
+
+                                            <form action="/" id="frmCalculateShipping" method="post">
+                                                <table class="cart-totals">
+                                                    <tr>
+                                                        <td>
+                                                            <div class="form-group col-lg-6">
+                                                                <label class="font-weight-bold text-dark">Correo Eléctronico</label>
+                                                                <input type="text" id="txtCorreo" name="txtCorreo" value="" class="form-control h-50 w-100 " >
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>
+
+                                                            <div class="form-group col-lg-6">
+                                                                
+                                                                <button type="button" class="btnEnviarCorreoLista btn btn-primary btn-modern  w-auto h-50">Enviar</button>
+
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    </table>
+                                            </form>
+                                        </div>
+                                        
+                                    </div>
+                             
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
+                                        <div class="box-content">
+                                            <h4 class="color-primary font-weight-semibold text-4 text-uppercase mb-3">TOTAL</h4>
+                                            <table class="cart-totals">
+                                                <tbody>
+                                                    <tr class="cart-subtotal">
+                                                        <th>
+                                                            <strong class="text-dark">Subtotal</strong>
+                                                        </th>
+                                                        <td>
+                                                            <strong class="text-dark"><span class="amount">$@totalS </span></strong>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="shipping">
+                                                        <th>
+                                                            IVA
+                                                        </th>
+                                                        <td>
+                                                            @{ var IVA = totalS * 0.16;}
+                                                           @IVA<input type="hidden" value="free_shipping" id="shipping_method" name="shipping_method">
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="total">
+                                                        <th>
+                                                            <strong class="text-dark">Orden Total</strong>
+                                                        </th>
+                                                        <td>
+                                                            @{ totalS = totalS+IVA;}
+                                                            <strong class="text-dark"><span class="amount">$@totalS </span></strong>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div>
+                                                <form enctype="multipart/form-data" method="post" class="cart" action="~/Carrito/iniciar">
+                                                    <button type="submit" class="btn  btn-primary btn-modern  w-auto h-50">Reiniciar Carrito</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+                            </div><script src="~/ScriptsPage/jsCorreo.js"></script>
+
+                        </div>
+
+                    
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+

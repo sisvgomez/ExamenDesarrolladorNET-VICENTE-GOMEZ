@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\PublicacionTiendaOnline</_PublishTargetUrl>
+    <EncryptedPassword />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=DESKTOP-P1CPL4Q\SQLEXPRESS%3bInitial Catalog=dbTiendaOnLine%3bUser ID=UsTienda%3bPassword=t13nd4%2401y%3bMax Pool Size=600</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

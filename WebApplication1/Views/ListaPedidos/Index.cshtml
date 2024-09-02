@@ -1,0 +1,149 @@
+﻿@model IEnumerable<Tienda.Core.Entities.ListaPedidos>;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutPrueba.cshtml";
+}
+
+
+<head>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <script>
+        $(function () {
+            $('input[name="FechaInicio"]').daterangepicker({
+                singleDatePicker: true,
+                locale: {
+                    format: 'YYYY/MM/DD',
+                     cancelLabel: 'Clear'
+                    
+                },
+                showDropdowns: true,
+                minYear: 1901,
+                maxYear: parseInt(moment().format('YYYY'), 10)
+
+            });
+        });
+        $(function () {
+            $('input[name="FechaFin"]').daterangepicker({
+                singleDatePicker: true,
+                locale: {
+                    format: 'YYYY/MM/DD',
+                     cancelLabel: 'Clear'
+                },
+                showDropdowns: true,
+                minYear: 1901,
+                maxYear: parseInt(moment().format('YYYY'), 10)
+
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+
+    <div class="body">
+        <header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 70}">
+            <div class="header-body border-top-0">
+
+
+            </div>
+        </header>
+
+        <div role="main" class="main">
+            <div class="container py-2">
+
+
+                <div class="row">
+                    <div class="col pb-3">
+
+                        <hr class="solid my-5">
+                        <h3>Lista de Pedidos</h3>
+
+                        <form action="~/ListaPedidos/ListaPedidos" method="post">
+
+                            <div class="col-2">
+
+                                Fecha de inicio<input class="form-control" type="text" name="FechaInicio" value="" />
+                                Fecha final<input class="form-control" type="text" name="FechaFin" value="" />
+
+                            </div>
+                            <div class="col-1">
+
+                                <input type="submit" value="Obtener pedidos" name="ObtenerPedidos" class="btn btn-primary mt-2">
+
+                            </div>
+                        </form>
+
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        #
+                                    </th>
+                                    <th>
+                                        Número de pedido
+                                    </th>
+                                    <th>
+                                        Monto
+                                    </th>
+                                    <th>
+                                        Fecha
+                                    </th>
+                                    <th>
+                                        Status
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{ int x = 0;}
+                                @foreach (var item in Model)
+                                {
+                                    x=x +1;
+                                    <tr>
+                                        <td>
+                                            @x
+                                        </td>
+                                        <td>
+                                            @item.NumPedido
+                                        </td>
+                                        <td>
+                                            @item.Total
+                                        </td>
+                                        <td>
+                                            @item.Fecha
+                                        </td>
+                                        <td>
+                                            @item.Status
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+

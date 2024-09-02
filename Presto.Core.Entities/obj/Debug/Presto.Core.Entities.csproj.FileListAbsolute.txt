@@ -1,0 +1,5 @@
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Presto.Core.Entities\bin\Debug\Presto.Core.Entities.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Presto.Core.Entities\bin\Debug\Presto.Core.Entities.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Presto.Core.Entities\obj\Debug\Presto.Core.Entities.csprojAssemblyReference.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Presto.Core.Entities\obj\Debug\Presto.Core.Entities.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Presto.Core.Entities\obj\Debug\Presto.Core.Entities.pdb

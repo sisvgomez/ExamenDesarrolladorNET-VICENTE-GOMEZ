@@ -1,0 +1,121 @@
+﻿
+@*@{
+    Layout = null;
+}*@
+
+@{
+        ViewData["Title"] = "Index";
+        Layout = "~/Views/Shared/_LayoutPinturas.cshtml";
+    }
+
+
+
+
+    <div class="body blog-bg">
+
+
+        @*<div class="container pt-4">
+
+            <div id="portfolioSliderWithThumbs">
+                <div class="thumb-gallery">
+                    <div class="owl-carousel owl-theme manual thumb-gallery-detail h-100" id="thumbGalleryDetail">
+                        @if (ViewBag.productos != null)
+                        {
+                            @foreach (var item in ViewBag.productos)
+                            {
+
+                                <div><img alt="" src="img/products/Empresa/@ViewBag.empresa/@item.Imagen"></div>
+                            }
+                        }
+                        <div style="background: url('~/img/demos/photography/gallery/family/2.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/family/3.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/travel/1.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/travel/2.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/travel/3.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/lifestyle/1.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/lifestyle/2.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/lifestyle/3.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/landscape/1.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/landscape/2.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/landscape/3.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/wedding/1.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/wedding/2.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/wedding/3.jpg');"></div>
+                    </div>
+                    <div class="owl-carousel owl-theme manual thumb-gallery-thumbs" id="thumbGalleryThumbs">
+                        @if (ViewBag.productos != null)
+                        {
+                            @foreach (var item in ViewBag.productos)
+                            {
+
+                                <div style="background: url('img/products/Empresa/@ViewBag.empresa/@item.Imagen');"></div>
+                            }
+                        }
+                        <div style="background: url('~/img/demos/photography/gallery/family/1-thumb.jpg');"></div>
+                        <div style="background: url('~/img/demos/photography/gallery/family/2-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/family/3-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/travel/1-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/travel/2-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/travel/3-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/lifestyle/1-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/lifestyle/2-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/lifestyle/3-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/landscape/1-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/landscape/2-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/landscape/3-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/wedding/1-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/wedding/2-thumb.jpg');"></div>
+                    <div style="background: url('~/img/demos/photography/gallery/wedding/3-thumb.jpg');"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>*@
+
+        <div class="slider-container rev_slider_wrapper" style="height: 300px;">
+            <div id="revolutionSlider" class="slider rev_slider manual" data-version="5.4.8">
+                <ul>
+                    @if (ViewBag.productos != null)
+                    {
+                        @foreach (var item in ViewBag.productos)
+                        {
+
+                            <li data-transition="fade">
+
+                                <img src="img/products/Empresa/@ViewBag.empresa/@item.Imagen"
+                                     alt=""
+                                     data-bgposition="top center"
+                                     data-bgfit="cover"
+                                     data-bgrepeat="no-repeat"
+                                     data-kenburns="on"
+                                     data-duration="5000"
+                                     data-ease="Linear.easeNone"
+                                     data-scalestart="110"
+                                     data-scaleend="100"
+                                     data-offsetstart="250 100"
+                                     data-offsetend="-250 -150"
+                                     class="rev-slidebg">
+
+                                <div class="tp-caption tp-caption-photo-label tp-caption-overlay-opacity"
+                                    data-x="['left','left','left','left']"
+                                     data-hoffset="['28','28','28','28']"
+                                     data-y="['top','top','top','top']"
+                                     data-voffset="['50','50','50','50']"
+                                     data-start="100"
+                                     data-basealign="slide"
+                                     data-transform_in="y:[-300%];opacity:300;s:100;"> @item.NomProducto <br /> $@item.Precio  <br /> @item.Descripcion  <br /><br /><h1><a href="/DetallePintura/index?id=@item.IdProducto" style="color:#efb810;background-color:black">Ver más información de la pintura</a></h1></div>
+                                </li>
+
+
+                            }
+                    }
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script src="~/ScriptsPage/jsPinturas.js"></script>
+  

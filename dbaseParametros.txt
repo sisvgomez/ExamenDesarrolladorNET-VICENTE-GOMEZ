@@ -1,0 +1,7 @@
+usuario:  UsTienda
+pass: t13nd4$01y
+
+Server=localhost\SQLEXPRESS01;Database=master;Trusted_Connection=True;
+
+Usuario:sa
+Pass: 1ng3n1er14$01

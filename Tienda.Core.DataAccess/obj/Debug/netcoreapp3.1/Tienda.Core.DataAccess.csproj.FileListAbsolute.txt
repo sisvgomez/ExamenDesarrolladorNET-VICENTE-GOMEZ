@@ -1,0 +1,21 @@
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\bin\Debug\netcoreapp3.1\Tienda.Core.DataAccess.deps.json
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\bin\Debug\netcoreapp3.1\Tienda.Core.DataAccess.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\bin\Debug\netcoreapp3.1\Tienda.Core.DataAccess.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.csprojAssemblyReference.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.AssemblyInfoInputs.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.AssemblyInfo.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.csproj.CopyComplete
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.pdb
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.DataAccess\bin\Debug\netcoreapp3.1\Tienda.Core.DataAccess.deps.json
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.DataAccess\bin\Debug\netcoreapp3.1\Tienda.Core.DataAccess.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.DataAccess\bin\Debug\netcoreapp3.1\Tienda.Core.DataAccess.pdb
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.DataAccess\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.csproj.AssemblyReference.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.AssemblyInfoInputs.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.AssemblyInfo.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.csproj.CoreCompileInputs.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.csproj.CopyComplete
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.DataAccess\obj\Debug\netcoreapp3.1\Tienda.Core.DataAccess.pdb

@@ -1,0 +1,3 @@
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebTiendaOnLine\obj\Debug\netcoreapp2.0\WebTiendaOnLine.csprojAssemblyReference.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebTiendaOnLine\obj\Debug\netcoreapp2.0\WebTiendaOnLine.AssemblyInfoInputs.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebTiendaOnLine\obj\Debug\netcoreapp2.0\WebTiendaOnLine.AssemblyInfo.cs

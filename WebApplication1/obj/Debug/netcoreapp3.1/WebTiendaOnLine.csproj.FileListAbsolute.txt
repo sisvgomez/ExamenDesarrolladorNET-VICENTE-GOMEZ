@@ -1,0 +1,338 @@
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.exe
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.deps.json
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.runtimeconfig.json
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.runtimeconfig.dev.json
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.Views.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.Views.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.Business.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.DataAccess.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.Entities.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.Business.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.DataAccess.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.Entities.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.csprojAssemblyReference.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.RazorAssemblyInfo.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.RazorAssemblyInfo.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.AssemblyInfoInputs.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.AssemblyInfo.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.TagHelpers.input.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.TagHelpers.output.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.RazorCoreGenerate.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\AdminProducto\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\BuscarPedido\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Carrito\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Comprar\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\CrearCuenta\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\CrearPedido\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\ListaPedidos\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\MovPedidos\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Paginar\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\ProductoDetalla\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Productos\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Prueba\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutInicial.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutPrueba.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutUna.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\tablaProductos\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.RazorTargetAssemblyInfo.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.RazorTargetAssemblyInfo.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.Views.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.csproj.CopyComplete
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebTiendaOnLine.StaticWebAssets.Manifest.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebTiendaOnLine.StaticWebAssets.xml
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Pinturas\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutPinturas.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\DetallePintura\Index.cshtml.g.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\PrincipalPinturas\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.exe
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.deps.json
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.runtimeconfig.json
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.runtimeconfig.dev.json
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.Business.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.DataAccess.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.Entities.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.Business.pdb
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.DataAccess.pdb
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\Tienda.Core.Entities.pdb
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.csproj.AssemblyReference.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.AssemblyInfoInputs.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.AssemblyInfo.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.csproj.CoreCompileInputs.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.MvcApplicationPartsAssemblyInfo.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.RazorAssemblyInfo.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.RazorAssemblyInfo.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebTiendaOnLine.StaticWebAssets.Manifest.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.TagHelpers.input.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.TagHelpers.output.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.RazorCoreGenerate.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\AdminProducto\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\BuscarPedido\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Carrito\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Comprar\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\CrearCuenta\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\CrearPedido\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\DetallePintura\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\ListaPedidos\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\MovPedidos\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Paginar\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Pinturas\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\PrincipalPinturas\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\ProductoDetalla\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Productos\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Prueba\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutInicial.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutPinturas.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutPrueba.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutUna.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\tablaProductos\Index.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.RazorTargetAssemblyInfo.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.RazorTargetAssemblyInfo.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.Views.pdb
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.csproj.CopyComplete
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.pdb
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\WebTiendaOnLine.genruntimeconfig.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.pdb
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.Views.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\bin\Debug\netcoreapp3.1\WebTiendaOnLine.Views.pdb
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebTiendaOnLine.StaticWebAssets.xml
+C:\ProyectosVS\WebTiendaOnline Lucy\WebApplication1\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebTiendaOnLine.styles.css

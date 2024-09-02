@@ -1,0 +1,8 @@
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication1.StaticWebAssets.Manifest.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication1.StaticWebAssets.xml
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.AssemblyInfo.cs

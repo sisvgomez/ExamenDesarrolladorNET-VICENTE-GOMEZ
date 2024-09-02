@@ -1,0 +1,596 @@
+﻿@model Tienda.Core.Entities.DatosCliente;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutPrueba.cshtml";
+}
+
+<h1>Index</h1>
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Cart | Porto - Responsive HTML5 Template 7.6.0</title>
+
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Porto - Responsive HTML5 Template">
+    <meta name="author" content="okler.net">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+    <!-- Web Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="~/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="~/vendor/animate/animate.min.css">
+    <link rel="stylesheet" href="~/vendor/simple-line-icons/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="~/vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/vendor/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="~/vendor/bootstrap-star-rating/css/star-rating.min.css">
+    <link rel="stylesheet" href="~/vendor/bootstrap-star-rating/themes/krajee-fas/theme.min.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="~/css/theme.css">
+    <link rel="stylesheet" href="~/css/theme-elements.css">
+    <link rel="stylesheet" href="~/css/theme-blog.css">
+    <link rel="stylesheet" href="~/css/theme-shop.css">
+
+    <!-- Demo CSS -->
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="~/css/skins/default.css">
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="~/css/custom.css">
+
+    <!-- Head Libs -->
+    <script src="~/vendor/modernizr/modernizr.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.8.0/sweetalert2.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.8.0/sweetalert2.min.js"></script>
+
+</head>
+<script>
+
+
+
+
+    function valida_envia() {
+
+        //valido el Estado
+        if (document.fvalida.estado.selectedIndex == 0) {
+
+            swal({
+                title: "Pedido..",
+                text: "Debes seleccionar un Estado",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+
+            document.fvalida.estado.focus()
+            return 0;
+        }
+        //valido el nombre
+        if (document.fvalida.nombre.value.length == 0) {
+            swal({
+                title: "Pedido..",
+                text: "Debe escribir su nombre",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+            document.fvalida.nombre.focus()
+            return 0;
+        }
+        //valido el apellidos
+        if (document.fvalida.apellidos.value.length == 0) {
+            swal({
+                title: "Pedido..",
+                text: "Debe escribir sus apellidos",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+            document.fvalida.apellidos.focus()
+            return 0;
+        }
+        //valido el calle
+        if (document.fvalida.calle.value.length == 0) {
+            swal({
+                title: "Pedido..",
+                text: "Debe escribir su calle de domicilio",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+            document.fvalida.calle.focus()
+            return 0;
+        }
+        //valido el noext
+        if (document.fvalida.noext.value.length == 0) {
+            swal({
+                title: "Pedido..",
+                text: "Debe escribir su numero exterior de domicilio",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+            document.fvalida.noext.focus()
+            return 0;
+        }
+        //valido el codigopostal
+        if (document.fvalida.codigopostal.value.length == 0) {
+            swal({
+                title: "Pedido..",
+                text: "Debe escribir su codigo postal de su domicilio",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+            document.fvalida.codigopostal.focus()
+            return 0;
+        }
+        //valido el colonia
+        if (document.fvalida.colonia.value.length == 0) {
+            swal({
+                title: "Pedido..",
+                text: "Debe escribir su colonia de su domicilio",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+            document.fvalida.colonia.focus()
+            return 0;
+        }
+        //valido correo
+        if (document.fvalida.correo.value.length == 0) {
+            swal({
+                title: "Pedido..",
+                text: "Debe escribir su correo eléctronico",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+            document.fvalida.correo.focus()
+            return 0;
+        }
+        //valido el telefonomovil
+        if (document.fvalida.telefonomovil.value.length == 0) {
+            swal({
+                title: "Pedido..",
+                text: "Debe escribir su telefono movil",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+            document.fvalida.telefonomovil.focus()
+            return 0;
+        }
+        //valido el telefonofijo
+        if (document.fvalida.telefonofijo.value.length == 0) {
+            swal({
+                title: "Pedido..",
+                text: "Debe escribir su telefono fijo",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+            document.fvalida.telefonofijo.focus()
+            return 0;
+        }
+
+
+        //el formulario se envia
+        //swal({
+        //    title: "Pedido..",
+        //    text: "Su pedido ha sido enviado, muchas gracias",
+        //    type: "warning",
+        //    //showCancelButton: true,
+        //    confirmButtonColor: '#3085d6',
+        //    //cancelButtonColor: '#d33',
+        //    //confirmButtonText: 'Si, estoy seguro',
+        //    //cancelButtonText: "Cancelar"
+        //    timer: 5000
+        //});
+
+
+        document.fvalida.submit();
+    }
+
+</script>
+
+@if (ViewBag.Message != null)
+{
+    <script type="text/javascript">
+
+         swal({
+                title: "@ViewBag.Message",
+                text: "Gracias, Ahora confirme su pedido..",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+
+    </script>
+}
+@if (ViewBag.MessageCliente != null)
+{
+    <script type="text/javascript">
+
+         swal({
+                title: "@ViewBag.MessageCliente ",
+                text: "Gracias!!",
+                type: "warning",
+                //showCancelButton: true,
+                confirmButtonColor: '#3085d6'
+                //cancelButtonColor: '#d33',
+                //confirmButtonText: 'Si, estoy seguro',
+                //cancelButtonText: "Cancelar"
+            });
+
+    </script>
+}
+<body>
+    @*@{
+            Double total = 0;
+        }
+        @foreach (var item in Model)
+        {
+            total = total + Convert.ToDouble(item.Subtotal);
+        }*@
+
+    <section class="body">
+
+        <div role="main" class="main shop py-4">
+
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col">
+
+                        <div class="featured-boxes">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="featured-box text-color-hover-dark featured-box-primary text-left mt-3 mt-lg-4">
+                                        <div class="box-content">
+                                            <h4 class="text-5 text-primary">Entrega</h4>
+                                            <form action="~/Comprar/BuscarClienteIdCliente" class="search nav-form d-none d-xl-inline-block" method="post">
+                                                <div class="input-group">
+                                                    <input type="hidden" name="total" value=@ViewBag.total>
+                                                    <input type="text" class="form-control" name="BuscarCliente" id="q" placeholder="Buscar Cliente...">
+                                                    <span class="input-group-append">
+                                                        <button class="btn btn-default" type="submit"><i class="fas fa-search"></i></button>
+                                                    </span>
+                                                </div>
+                                            </form>
+                                            <h4 class="text-4 text-primary">Datos de quien recibe</h4>
+
+                                            <form action="~/Comprar/RegistrarCliente" method="post" name="fvalida">
+                                                <table class="cart-totals">
+                                                    <tbody>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Estado*</strong>
+                                                            </th>
+                                                            <td>
+                                                                <select class="form-control" name="estado">
+                                                                    @{
+                                                                        <option value="">Select a estado</option>
+                                                                        if (Model.IdEstado == 1)
+                                                                        {
+                                                                            <option value="CDMX" selected>CDMX</option>
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            <option value="CDMX">CDMX</option>
+                                                                        }
+
+                                                                        if (Model.IdEstado == 2)
+                                                                        {
+                                                                            <option value="Sonora" selected>Sonora</option>
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            <option value="Sonora">Sonora</option>
+                                                                        }
+
+                                                                    }
+                                                                </select>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Nombre*</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.Nombre" name="nombre" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Apellidos*</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.Apellidos" name="apellidos" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Calle*</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.Calle" name="calle" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">No. Ext*</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.NoExt" name="noext" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">No. Int</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.NoInt" name="noint" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Codigo Postal*</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.CodigoPostal" name="codigopostal" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Colonia*</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.Colonia" name="colonia" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <h4 class="text-4 text-primary">Datos adicionales</h4>
+                                                            </th>
+                                                            <td>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Entre calles</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.EntreCalles" name="entrecalles" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Referencias</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.Referencias" name="referencias" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Correo*</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.Email" name="correo" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Telefono Movil*</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.TelefonoMovil" name="telefonomovil" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Telefono Fijo*</strong>
+                                                            </th>
+                                                            <td>
+                                                                <input type="text" value="@Model.TelefonoFijo" name="telefonofijo" class="form-control">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <input type="hidden" name="total" value=@ViewBag.total>
+                                                            </th>
+                                                            <td>
+
+                                                                <input type="button" onclick="valida_envia()" value="Registrar Cliente" class="btn btn-primary btn-modern text-uppercase">
+                                                            </td>
+
+                                                        </tr>
+
+
+
+                                                </table>
+
+                                            </form>
+                                            <form action="~/CrearPedido/EnviarPedido" method="post" name="fconfirma">
+                                                <table class="cart-totals">
+                                                    <tbody>
+                                                        <tr class="cart-subtotal">
+                                                            <th>
+                                                                <strong class="text-color-grey">Confirmar</strong>
+                                                                <input type="hidden" name="total" value=@ViewBag.total>
+                                                            </th>
+                                                            <td>
+                                                                @{
+                                                                    if (Model.IdEstado > 0 && Model.Nombre != null)
+                                                                    {
+
+                                                                        <input type="submit" name="btnenvia" value="Confirmar pedido" class="btn btn-primary btn-modern text-uppercase">
+
+                                                                    }
+                                                                    else
+                                                                    { <input type="submit" name="btnenvia" value="Confirmar pedido" class="btn btn-primary btn-modern text-uppercase" disabled>}
+                                                                }
+                                                            </td>
+                                                        </tr>
+                                                </table>
+                                            </form>
+
+                                            <h4 class="text-2 text-primary text-color-hover-light">*Estos datos son obligatorios</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="featured-box featured-box-primary text-left mt-3 mt-lg-4">
+                                        <div class="box-content">
+                                            <h4 class="text-5 text-primary">Venta Total</h4>
+                                            <table class="cart-totals">
+                                                <tbody>
+                                                    <tr class="cart-subtotal">
+                                                        <th>
+                                                            <strong class="text-color-grey">Subtotal</strong>
+                                                        </th>
+                                                        <td>
+                                                            <strong class="text-dark"><span class="amount">$@ViewBag.total </span></strong>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="shipping">
+                                                        <th>
+                                                            IVA
+                                                        </th>
+                                                        <td>
+                                                            $0<input type="hidden" value="free_shipping" id="shipping_method" name="shipping_method">
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="total">
+                                                        <th>
+                                                            <strong class="text-dark">Order Total</strong>
+                                                        </th>
+                                                        <td>
+                                                            <strong class="text-dark"><span class="amount">$@ViewBag.total </span></strong>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+
+
+                                                        <th>
+
+                                                            <div class="form-group col">
+                                                                <form name="form" action="~/CrearPedido/Index" method="post">
+                                                                    <input type="submit" value="Seguir Comprando" class="btn btn-primary btn-modern text-uppercase" data-loading-text="Loading...">
+                                                                </form>
+                                                            </div>
+                                                        </th>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="actions-continue">
+                                    @*<button type="submit" class="btn btn-primary btn-modern text-uppercase">Confirmar compra<i class="fas fa-angle-right ml-1"></i></button>*@
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- Vendor -->
+    <script src="~/vendor/jquery/jquery.min.js"></script>
+    <script src="~/vendor/jquery.appear/jquery.appear.min.js"></script>
+    <script src="~/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="~/vendor/jquery.cookie/jquery.cookie.min.js"></script>
+    <script src="~/vendor/popper/umd/popper.min.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/vendor/common/common.min.js"></script>
+    <script src="~/vendor/jquery.validation/jquery.validate.min.js"></script>
+    <script src="~/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <script src="~/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+    <script src="~/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+    <script src="~/vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="~/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="~/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="~/vendor/vide/jquery.vide.min.js"></script>
+    <script src="~/vendor/vivus/vivus.min.js"></script>
+    <script src="~/vendor/bootstrap-star-rating/js/star-rating.min.js"></script>
+    <script src="~/vendor/bootstrap-star-rating/themes/krajee-fas/theme.min.js"></script>
+
+    <!-- Theme Base, Components and Settings -->
+    <script src="~/js/theme.js"></script>
+
+    <!-- Current Page Vendor and Views -->
+    <script src="~/js/views/view.shop.js"></script>
+
+    <!-- Theme Custom -->
+    <script src="~/js/custom.js"></script>
+
+    <!-- Theme Initialization Files -->
+    <script src="~/js/theme.init.js"></script>
+
+
+
+</body>

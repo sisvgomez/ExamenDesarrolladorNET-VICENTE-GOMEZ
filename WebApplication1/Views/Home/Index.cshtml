@@ -1,0 +1,276 @@
+﻿@*@model Tienda.Core.Entities.Producto*@
+@model IEnumerable<Tienda.Core.Entities.Producto>;
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutInicial.cshtml";
+}
+
+<h1>Productos</h1>
+<div class="panel-hdr">
+    <h2>
+        <span class="fw-300"><i>Productos</i></span>
+    </h2>
+</div>
+
+
+<div role="main" class="main shop py-4">
+
+    <div class="container">
+
+        <div class="row">
+            @*MENU IZQUIERDO*@
+            <div class="col-lg-2">
+                <aside class="sidebar">
+                    @*<form action="page-search-results.html" method="get">
+            <div class="input-group mb-3 pb-1">
+                <input class="form-control text-1" placeholder="Search..." name="s" id="s" type="text">
+                <span class="input-group-append">
+                    <button type="submit" class="btn btn-dark text-1 p-2"><i class="fas fa-search m-2"></i></button>
+                </span>
+            </div>
+        </form>*@
+                    <h5 class="font-weight-bold pt-3">Categories</h5>
+                    <h6 class="font-weight-bold pt-3">Categories</h6>
+                    <ul class="nav nav-list flex-column">
+                        
+                        <li class="nav-item"><a class="nav-link" href="#">Arts & Crafts</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Automotive</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Baby</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Eletronics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Women's Fashion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Men's Fashion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Health & Household</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Home & Kitchen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Military Accessories</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Movies & Television</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sports & Outdoors</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Tools & Home Improvement</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Toys & Games</a></li>
+                    </ul>
+                    <h5 class="font-weight-bold pt-5">Tags</h5>
+                    <div class="mb-3 pb-1">
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Nike</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Travel</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Sport</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">TV</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Books</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Tech</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Adidas</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Promo</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Reading</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Social</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Books</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">Tech</span></a>
+                        <a href="#"><span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">New</span></a>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col">
+                            <h5 class="font-weight-bold pt-5">Top Rated Products</h5>
+                            <ul class="simple-post-list">
+                                <li>
+                                    <div class="post-image">
+                                        <div class="d-block">
+                                            <a href="shop-product-sidebar-left.html">
+                                                <img alt="" width="60" height="60" class="img-fluid" src="~/img/products/product-grey-1.jpg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-info">
+                                        <a href="shop-product-sidebar-left.html">Photo Camera</a>
+                                        <div class="post-meta text-dark font-weight-semibold">
+                                            $299
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="post-image">
+                                        <div class="d-block">
+                                            <a href="shop-product-sidebar-left.html">
+                                                <img alt="" width="60" height="60" class="img-fluid" src="~/img/products/product-grey-4.jpg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-info">
+                                        <a href="shop-product-sidebar-left.html">Luxury bag</a>
+                                        <div class="post-meta text-dark font-weight-semibold">
+                                            $199
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="post-image">
+                                        <div class="d-block">
+                                            <a href="shop-product-sidebar-left.html">
+                                                <img alt="" width="60" height="60" class="img-fluid" src="~/img/products/product-grey-8.jpg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="post-info">
+                                        <a href="shop-product-sidebar-left.html">Military Rucksack</a>
+                                        <div class="post-meta text-dark font-weight-semibold">
+                                            $49
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <div class="col-lg-9">
+               
+
+                <div class="container">
+                    <div class="card-body">
+                        <div class="masonry-loader masonry-loader-showing">
+                            <div class="row products product-thumb-info-list" data-plugin-masonry data-plugin-options="{'layoutMode': 'fitRows'}">
+                              
+                                @foreach (var item in Model)
+
+                                { 
+                                    
+                                    <div class="col-12 col-sm-6 col-lg-3 product" id="dv-producto">
+
+                                        <span class="product-thumb-info border-0">
+                                            <a href="~/CrearPedido/BuscarQuery?ClaveProducto=@item.ClaveProducto" class="add-to-cart-product bg-color-primary">
+                                                <span class="text-uppercase text-1">Agregar a carrito</span>
+                                            </a>
+                                            <a href="~/Productodetalla/index?id=@item.IdProducto">
+                                                <span class="product-thumb-info-image">
+                                                    <img alt="" class="img-fluid" src="~/img/products/Empresa/@ViewBag.NombreEmpresa/@item.Imagen">
+                                                </span>
+                                            </a>
+                                            <span class="product-thumb-info-content product-thumb-info-content pl-0 bg-color-light">
+                                                <a href="~/Productodetalla/index?id=@item.IdProducto">
+                                                    <h4 class="text-4 text-primary">@item.NomProducto</h4>
+                                                    <span class="price">
+                                                        <del><span class="amount">$item.Precio</span></del>
+                                                        <ins><span class="amount text-dark font-weight-semibold">$@item.Precio</span></ins>
+                                                    </span>
+                                                </a>
+                                            </span>
+                                        </span>
+                                    </div>
+                                }
+                            </div>
+                            <div class="row">
+
+                                <div class="col">
+                                    <ul class="pagination float-right">
+                                        @*@if (ViewBag.Page > 0)
+                                            {*@
+                                        <button class="btnIzq btn btn-sm btn-primary btn-icon waves-effect waves-themed" id="" type="button"><i class="fal fa-arrow-to-left"></i></button>--
+
+                                        @*<li class="page-item"><a class="page-link" href="@Url.Action("Index", new { page = ViewBag.Page - 1 })"><i class="fas fa-angle-left"></i></a></li>*@
+                                        @*//}*@
+                                        @*<li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>*@
+                                        @*@if (ViewBag.Page < ViewBag.MaxPage)
+                                            {*@
+                                        <button class="btnDer btn-sm btn-primary btn-icon waves-effect waves-themed" id="" type="button"><i class="fal fa-arrow-to-right"></i></button>
+                                        <li class="page-item">
+                                            @*<a class="page-link" href="@Url.Action("Index", new { page = ViewBag.Page + 1 })"><i class="fas fa-angle-right"></i></a>*@
+                                        </li>
+                                        @*//}*@
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    @*<div class="row">
+                        <div class="col">
+                            <ul class="pagination float-right">
+                                @if (ViewBag.Page > 0)
+                                {
+                                    <li class="page-item"><a class="page-link" href="@Url.Action("Index", new { page = ViewBag.Page - 1 })"><i class="fas fa-angle-left"></i></a></li>
+                                }
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                @if (ViewBag.Page < ViewBag.MaxPage)
+                                {
+                                    <li class="page-item">
+                                        <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.Page + 1 })"><i class="fas fa-angle-right"></i></a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>*@
+
+                </div>
+
+            </div>
+            <div class="col-lg-1">Hola</div>
+        </div>
+    </div>
+
+</div>
+
+
+@*<script src="~/js/datagrid/datatables/datatables.bundle.js"></script>*@
+<!-- Vendor -->
+<script src="~/vendor/jquery/jquery.js"></script>
+<script src="~/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+<script src="~/vendor/popper/umd/popper.min.js"></script>
+<script src="~/vendor/bootstrap/js/bootstrap.js"></script>
+<script src="~/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script src="~/vendor/common/common.js"></script>
+<script src="~/vendor/nanoscroller/nanoscroller.js"></script>
+<script src="~/vendor/magnific-popup/jquery.magnific-popup.js"></script>
+<script src="~/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+
+<!-- Specific Page Vendor -->
+<script src="~/vendor/select2/js/select2.js"></script>
+<script src="~/vendor/datatables/media/js/jquery.dataTables.min.js"></script>
+<script src="~/vendor/datatables/media/js/dataTables.bootstrap4.min.js"></script>
+<script src="~/vendor/datatables/extras/TableTools/Buttons-1.4.2/js/dataTables.buttons.min.js"></script>
+<script src="~/vendor/datatables/extras/TableTools/Buttons-1.4.2/js/buttons.bootstrap4.min.js"></script>
+<script src="~/vendor/datatables/extras/TableTools/Buttons-1.4.2/js/buttons.html5.min.js"></script>
+<script src="~/vendor/datatables/extras/TableTools/Buttons-1.4.2/js/buttons.print.min.js"></script>
+<script src="~/vendor/datatables/extras/TableTools/JSZip-2.5.0/jszip.min.js"></script>
+<script src="~/vendor/datatables/extras/TableTools/pdfmake-0.1.32/pdfmake.min.js"></script>
+<script src="~/vendor/datatables/extras/TableTools/pdfmake-0.1.32/vfs_fonts.js"></script>
+
+<!-- Theme Base, Components and Settings -->
+<script src="~/js/theme.js"></script>
+
+<!-- Theme Custom -->
+<script src="~/js/custom.js"></script>
+
+<!-- Theme Initialization Files -->
+<script src="~/js/theme.init.js"></script>
+
+<!-- Examples -->
+<script src="~/js/examples/examples.datatables.default.js"></script>
+<script src="~/js/examples/examples.datatables.row.with.details.js"></script>
+<script src="~/js/examples/examples.datatables.tabletools.js"></script>
+<script>
+                        /* demo scripts for change table color */
+                        /* change background */
+
+
+                        //$(document).ready(function () {
+                        //    $('#dt-Productos').dataTable(
+                        //        {
+                        //            responsive: true
+                        //        });
+
+                        //    $('.js-thead-colors a').on('click', function () {
+                        //        var theadColor = $(this).attr("data-bg");
+                        //        console.log(theadColor);
+                        //        $('#dt-Productos thead').removeClassPrefix('bg-').addClass(theadColor);
+                        //    });
+
+                        //    $('.js-tbody-colors a').on('click', function () {
+                        //        var theadColor = $(this).attr("data-bg");
+                        //        console.log(theadColor);
+                        //        $('#dt-Productos').removeClassPrefix('bg-').addClass(theadColor);
+                        //    });
+
+                        });
+</script>

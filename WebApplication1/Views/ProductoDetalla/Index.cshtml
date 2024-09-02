@@ -1,0 +1,402 @@
+﻿@model Tienda.Core.Entities.Producto;
+@{
+        ViewData["Title"] = "Index";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+@*@{
+        ViewData["Title"] = "Index";
+          Layout = null;
+    }*@
+
+
+
+<div role="main" class="main shop py-4">
+
+    <div class="container">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="owl-carousel owl-theme" data-plugin-options="{'items': 1, 'margin': 10}">
+                        <div>
+                            http://localhost:6269/img/products/Empresa/LUCY/caballo2.jpeg
+                            <a href="~/img/products/Empresa/@ViewBag.empresa/@Model.Imagen" target="_blank"><img alt="" height="500" width="500" class="img-fluid" src="/img/products/Empresa/@ViewBag.empresa/@Model.Imagen"></a>
+                        </div>
+                        <div>
+                            <img alt="" height="300" class="img-fluid" src="img/products/product-grey-7-2.jpg">
+                        </div>
+                        <div>
+                            <img alt="" height="300" class="img-fluid" src="img/products/product-grey-7-3.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+
+                    <div class="summary entry-summary">
+
+                        <h1 class="mb-0 font-weight-bold text-7">@Model.NomProducto</h1>
+
+                        <div class="pb-0 clearfix">
+                            <div class="review-num">
+                                <span class="count" itemprop="ratingCount">2</span> reviews
+                            </div>
+                        </div>
+
+                        <p class="price">
+                            <span class="amount">$@Model.Precio</span>
+                        </p>
+
+                        <p class="mb-4">@Model.ClaveProducto </p>
+                        <input type="hidden" name="descripcionpro" id="descripcionpro" value="@Model.Descripcion" />
+                        <div class="product-meta">
+                            @*<span class="text-color-primary">Categorias: <a rel="tag">@Model.categoria</a></span>*@
+                            <span class="text-3 text-color-secondary">*** <a rel="tag"> @Model.Descripcion</a></span>
+
+                        </div>
+                        <div class="product-meta">
+                            <form enctype="multipart/form-data" method="post" class="cart" action="~/Prueba">
+                                <div class="quantity quantity-lg">
+                                    <input type="button" class="minus" value="-" hidden>
+
+                                    <input type="text" class="input-text qty text" title="Qty" value="1" name="Cantidad" min="1" step="1" disabled hidden>
+                                    <input type="button" class="plus" value="+" hidden>
+                                </div>
+
+                                <div class="product-meta">
+                                    <input type="hidden" name="buscar" value="@Model.ClaveProducto" />
+                                    <button type="submit" class="btn  btn-dark @*btn-modern*@ text-uppercas w-50 h-50" disabled hidden>Agregar a<i class="fal fa-shopping-cart"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="product-meta">
+                            <form enctype="multipart/form-data" method="post" class="cart" action="~/Prueba">
+                                <button href="~/Prueba" type="submit" class="btn btn-link w-100 text-color-hover-secondary">Ver mas productos</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <section class="card w-100">
+                        <header class="card-header text-color-hover-light height-2">
+                            <h4 class="card-text-color-hover-light">Cotizador</h4>
+                        </header>
+                        <div class="card-body bg-color-grey-scale-3">
+                            <form enctype="multipart/form-data" id="forma" method="post" class="cart" action="~/Prueba">
+                                <div class="col-sm-9">
+
+                                    <div class="form-group row">
+                                        <input type="hidden" name="idProducto" id="idProducto" value="@ViewBag.IdProducto" />
+                                        <input type="hidden" name="idSubCategoria" id="idSubCategoria" value="@ViewBag.idSubCategoria" />
+
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    @if (ViewBag.catTamano != null)
+                                                    {
+                                                        <span class="text-lg-3">Tamaño</span>
+                                                        <div class="col-sm-9">
+
+                                                            <select name="tamano" id="tamano" style="width: 250px" @*class="form-control-sm"*@ title="Seleccione" required>
+
+                                                                @foreach (var item in ViewBag.catTamano)
+                                                                {
+                                                                    <option value="@item.id">@item.descripcion</option>
+                                                                }
+                                                            </select>
+                                                            @*@Html.DropDownListFor(m => m.IdProducto.ToString(), (IEnumerable<SelectListItem>)ViewBag.catTamano,  new { @id = "id", @class = "form-control custom-select", @required = "required" })*@
+
+                                                        </div>
+                                                    }
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    @if (ViewBag.catImpresion != null)
+                                                    {
+                                                        <span class="text-lg-3">Impresión</span>
+                                                        <div class="col-sm-9">
+                                                            <select name="impresion" id="impresion" style="width: 250px" @*class="form-control-datepicker-custom"*@ title="Seleccione" required>
+                                                                @foreach (var item in ViewBag.catImpresion)
+                                                                {
+                                                                    <option value="@item.costo">@item.descripcion</option>
+                                                                }
+                                                            </select>
+                                                        </div>
+                                                    }
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    @if (ViewBag.catTipo != null)
+                                                    {
+                                                        <span class="text-lg-3">Tipo</span>
+                                                        <div class="col-sm-9">
+
+                                                            <select name="tipo" id="tipo" style="width: 250px" @*class="form-control-custom-dark"*@ title="Seleccione" required>
+
+                                                                @foreach (var item in ViewBag.catTipo)
+                                                                {
+                                                                    <option value="@item.id">@item.descripcion</option>
+                                                                }
+
+                                                            </select>
+                                                        </div>
+                                                    }
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+
+                                                    @if (ViewBag.catCantidad != null)
+                                                    {
+                                                        <span class="text-lg-3">Cantidad</span>
+
+                                                        <div class="col-sm-9">
+
+
+                                                            <select name="cantidad" id="cantidad" style="width: 250px" @*class="form-control-lg"*@ title="Seleccione" required>
+
+                                                                <option value="70">20</option>
+
+                                                            </select>
+
+                                                        </div>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span class="text-lg-3">Cantidad</span>
+
+                                                        <div class="col-sm-9">
+                                                            <input type="text" name="textCantidad" id="textCantidad" style="width: 250px" class="form-control h-50" placeholder="0" required value="1" />
+
+
+                                                        </div>
+                                                    }
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+
+                                                    @if (ViewBag.catNoCopias != null)
+                                                    {
+                                                        <span class="text-lg-3">Número de Copias</span>
+
+                                                        <div class="col-sm-9">
+
+
+                                                            <select name="noCopias" id="noCopias" style="width: 250px" @*class="form-control-lg"*@ title="Seleccione" required>
+
+                                                                @foreach (var item in ViewBag.catNoCopias)
+                                                                {
+                                                                    <option value="@item.costo">@item.descripcion</option>
+                                                                }
+
+                                                            </select>
+
+                                                        </div>
+                                                    }
+
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    @if (ViewBag.catTerminado != null)
+                                                    {
+                                                        <span class="text-lg-3">Terminado</span>
+                                                        <div class="col-sm-9">
+                                                            <select name="terminado" id="terminado" style="width: 250px" @*class="form-control-range"*@ title="Seleccione" required>
+                                                                @foreach (var item in ViewBag.catTerminado)
+                                                                {
+                                                                    <option value="@item.costo">@item.descripcion</option>
+                                                                }
+                                                            </select>
+                                                        </div>
+                                                    }
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    @if (ViewBag.catFolio != null)
+                                                    {
+                                                        <span class="text-lg-3">Folio</span>
+                                                        <div class="col-sm-9">
+                                                            <select name="folio" id="folio" style="width: 250px" @*class="form-control"*@ title="Seleccione" required>
+                                                                @foreach (var item in ViewBag.catFolio)
+                                                                {
+                                                                    <option value="@item.costo">@item.descripcion</option>
+                                                                }
+                                                            </select>
+                                                        </div>
+                                                    }
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="summary entry-summary">
+                                                        <p class="price text-5 ">
+                                                            <input type="hidden" name="numcantidad" id="numcantidad" value="0" />
+                                                            <input type="text" name="valorTotal" id="valorTotal" class="form-control h-50" placeholder="dir e-mail" required value="@Model.Precio" hidden />
+                                                            <div id="divTotal">
+                                                            </div>
+
+                                                        </p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="col-sm-9">
+                                                        @*<input type="hidden" value="1" name="Cantidad">*@
+                                                        <input type="hidden" name="buscar" value="@Model.ClaveProducto" />
+                                                        <button type="submit" class="btn  btn-dark  w-auto h-25">Agregar a<i class="fal fa-shopping-cart"></i></button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </div>
+
+
+
+
+                                </div>
+
+
+                            </form>
+                        </div>
+
+
+                        <div class="card-body  bg-color-grey ">
+                            <form action="">
+                                <label class="text-color-primary text-1">Correo<span class="required">*</span></label>
+
+                                <input type="text" name="txtCorreo" required id="txtCorreo" class="form-control h-25" placeholder="dir e-mail" /><br />
+                                <button type="button" class="btnEnviarCorreo btn  btn-dark  w-auto h-50">Enviar Cotización</button>
+
+                            </form>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-8">
+
+                    <div class="tabs tabs-product mb-2">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item active"><a class="nav-link py-3 px-4" href="#productDescription" data-toggle="tab">Descripción</a></li>
+                            <li class="nav-item"><a class="nav-link py-3 px-4" href="#productInfo" data-toggle="tab">Información adicional</a></li>
+                            @*<li class="nav-item"><a class="nav-link py-3 px-4" href="#productReviews" data-toggle="tab">Reviews (2)</a></li>*@
+                        </ul>
+                        <div class="tab-content p-0">
+                            <div class="tab-pane p-4 active text-color-grey" id="productDescription">
+                                <p>"@Model.Descripcion </p>
+                                <p class="m-0">Aqui puedes describir con mas detalle al producto.....</p>
+                            </div>
+                            <div class="tab-pane p-4" id="productInfo">
+                                <table class="table m-0">
+                                    <tbody>
+                                        <tr>
+                                            <th class="border-top-0">
+                                                Tamaño:
+                                            </th>
+                                            <td class="border-top-0">
+                                                A
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                Tipo
+                                            </th>
+                                            <td>
+                                                A
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                Material
+                                            </th>
+                                            <td>
+                                                Papel bond
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane p-4" id="productReviews">
+                                <ul class="comments">
+                                    <li>
+                                        <div class="comment">
+                                            <div class="img-thumbnail border-0 p-0 d-none d-md-block">
+                                                <img class="avatar" alt="" src="~/img/avatars/avatar-2.jpg">
+                                            </div>
+                                            <div class="comment-block">
+                                                <div class="comment-arrow"></div>
+                                                <span class="comment-by">
+                                                    <strong>Jack Doe</strong>
+                                                    <span class="float-right">
+                                                        <div class="pb-0 clearfix">
+                                                            <div title="Rated 3 out of 5" class="float-left">
+                                                                <input type="text" class="d-none" value="3" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'primary', 'size':'xs'}">
+                                                            </div>
+
+                                                            <div class="review-num">
+                                                                <span class="count" itemprop="ratingCount">2</span> reviews
+
+
+                                                            </div>
+                                                        </div>
+                                                    </span>
+                                                </span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae, gravida pellentesque urna varius vitae.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="comment">
+                                            <div class="img-thumbnail border-0 p-0 d-none d-md-block">
+                                                <img class="avatar" alt="" src="~/img/avatars/avatar.jpg">
+                                            </div>
+                                            <div class="comment-block">
+                                                <div class="comment-arrow"></div>
+                                                <span class="comment-by">
+                                                    <strong>John Doe</strong>
+                                                    <span class="float-right">
+                                                        <div class="pb-0 clearfix">
+
+
+                                                            <div class="review-num">
+                                                                <span class="count" itemprop="ratingCount">2</span> reviews
+                                                            </div>
+                                                        </div>
+                                                    </span>
+                                                </span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra odio, gravida urna varius vitae, gravida pellentesque urna varius vitae.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="~/ScriptsPage/jsCotizar.js"></script>
+<script src="~/ScriptsPage/jsCorreo.js"></script>

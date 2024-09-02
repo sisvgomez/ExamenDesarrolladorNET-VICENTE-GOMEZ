@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <!--<ItemGroup>
+    <Compile Remove="wwwroot\php\**" />
+    <Content Remove="wwwroot\php\**" />
+    <EmbeddedResource Remove="wwwroot\php\**" />
+    <None Remove="wwwroot\php\**" />
+  </ItemGroup>-->
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tienda.Core.Business\Tienda.Core.Business.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\datagrid\datatables\datatables.bundle.js" />
+    <None Include="wwwroot\js\datagrid\datatables\datatables.export.js" />
+    <None Include="wwwroot\js\examples\examples.advanced.form.js" />
+    <None Include="wwwroot\js\examples\examples.ajax.made.easy.js" />
+    <None Include="wwwroot\js\examples\examples.calendar.js" />
+    <None Include="wwwroot\js\examples\examples.carousels.js" />
+    <None Include="wwwroot\js\examples\examples.charts.js" />
+    <None Include="wwwroot\js\examples\examples.dashboard.js" />
+    <None Include="wwwroot\js\examples\examples.datatables.ajax.js" />
+    <None Include="wwwroot\js\examples\examples.datatables.default.js" />
+    <None Include="wwwroot\js\examples\examples.datatables.editable.js" />
+    <None Include="wwwroot\js\examples\examples.datatables.row.with.details.js" />
+    <None Include="wwwroot\js\examples\examples.datatables.tabletools.js" />
+    <None Include="wwwroot\js\examples\examples.demos.js" />
+    <None Include="wwwroot\js\examples\examples.forms.js" />
+    <None Include="wwwroot\js\examples\examples.gallery.js" />
+    <None Include="wwwroot\js\examples\examples.gmap.js" />
+    <None Include="wwwroot\js\examples\examples.header.menu.js" />
+    <None Include="wwwroot\js\examples\examples.image360.js" />
+    <None Include="wwwroot\js\examples\examples.instafeed.js" />
+    <None Include="wwwroot\js\examples\examples.landing.dashboard.js" />
+    <None Include="wwwroot\js\examples\examples.lightbox.js" />
+    <None Include="wwwroot\js\examples\examples.lightboxes.js" />
+    <None Include="wwwroot\js\examples\examples.loading.overlay.js" />
+    <None Include="wwwroot\js\examples\examples.loading.progress.js" />
+    <None Include="wwwroot\js\examples\examples.lockscreen.js" />
+    <None Include="wwwroot\js\examples\examples.map.builder.js" />
+    <None Include="wwwroot\js\examples\examples.mediagallery.js" />
+    <None Include="wwwroot\js\examples\examples.modals.js" />
+    <None Include="wwwroot\js\examples\examples.nestable.js" />
+    <None Include="wwwroot\js\examples\examples.notifications.js" />
+    <None Include="wwwroot\js\examples\examples.portfolio.js" />
+    <None Include="wwwroot\js\examples\examples.portlets.js" />
+    <None Include="wwwroot\js\examples\examples.session.timeout.js" />
+    <None Include="wwwroot\js\examples\examples.timeline.js" />
+    <None Include="wwwroot\js\examples\examples.treeview.js" />
+    <None Include="wwwroot\js\examples\examples.validation.js" />
+    <None Include="wwwroot\js\examples\examples.vector.maps.js" />
+    <None Include="wwwroot\js\examples\examples.widgets.js" />
+    <None Include="wwwroot\js\examples\examples.wizard.js" />
+    <None Include="wwwroot\ScriptsPage\jsPaginar.js" />
+    <None Include="wwwroot\ScriptsPage\jsProductos.js" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties wwwroot_4css_4vendors_1bundle_1css_1map__JsonSchema="" appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+
+
+</Project>

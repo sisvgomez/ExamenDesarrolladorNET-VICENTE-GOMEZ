@@ -1,0 +1,17 @@
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\bin\Debug\netcoreapp3.1\Tienda.Core.Entities.deps.json
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\bin\Debug\netcoreapp3.1\Tienda.Core.Entities.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\bin\Debug\netcoreapp3.1\Tienda.Core.Entities.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\obj\Debug\netcoreapp3.1\Tienda.Core.Entities.AssemblyInfoInputs.cache
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\obj\Debug\netcoreapp3.1\Tienda.Core.Entities.AssemblyInfo.cs
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\obj\Debug\netcoreapp3.1\Tienda.Core.Entities.dll
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\obj\Debug\netcoreapp3.1\Tienda.Core.Entities.pdb
+C:\Users\CRAXO\source\repos\WebTiendaOnline\Tienda.Core.Entities\obj\Debug\netcoreapp3.1\Tienda.Core.Entities.csprojAssemblyReference.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.Entities\bin\Debug\netcoreapp3.1\Tienda.Core.Entities.deps.json
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.Entities\bin\Debug\netcoreapp3.1\Tienda.Core.Entities.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.Entities\bin\Debug\netcoreapp3.1\Tienda.Core.Entities.pdb
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.Entities\obj\Debug\netcoreapp3.1\Tienda.Core.Entities.csproj.AssemblyReference.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.Entities\obj\Debug\netcoreapp3.1\Tienda.Core.Entities.AssemblyInfoInputs.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.Entities\obj\Debug\netcoreapp3.1\Tienda.Core.Entities.AssemblyInfo.cs
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.Entities\obj\Debug\netcoreapp3.1\Tienda.Core.Entities.csproj.CoreCompileInputs.cache
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.Entities\obj\Debug\netcoreapp3.1\Tienda.Core.Entities.dll
+C:\ProyectosVS\WebTiendaOnline Lucy\Tienda.Core.Entities\obj\Debug\netcoreapp3.1\Tienda.Core.Entities.pdb

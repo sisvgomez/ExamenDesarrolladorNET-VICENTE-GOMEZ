@@ -1,0 +1,397 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    //Layout = null;
+}
+
+@*<script>
+    $(window).resize(function () {
+        location.reload();
+    });
+
+</script>*@
+<div role="main" class="main shop py-4">
+    <div class="container">
+
+        <div class="row ">
+
+
+            <div class="col-lg-2">
+
+                <aside class="sidebar">
+                    <form action="page-search-results.html" method="get">
+                        <div class="input-group mb-3 pb-1">
+                            <input class="form-control text-1" placeholder="Search..." name="s" id="txtBuscar" type="text">
+                            <span class="input-group-append">
+                                <button type="button" name="buscar" class="btn btn-dark text-1 p-2">  <i class="fas fa-search" aria-hidden="true" id="buscar"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                    <h5 class="font-weight-bold pt-3">SubCategorias</h5>
+
+
+                    <div id="menuIzq">
+
+                    </div>
+
+                    @*lo quite para Lucy*@
+                    @* <h5 class="font-weight-bold pt-5">Temas</h5>
+        <div class="mb-3 pb-1">
+            @if (ViewBag.temas != null)
+            {
+                @foreach (var item in ViewBag.temas)
+                {
+                    <a href="javascript:CargarProductoTema(@ViewBag.idEmpresa ,@item.id,'4')">
+                        <span class="badge badge-dark badge-sm badge-pill text-uppercase px-2 py-1 mr-1">@item.descripcion</span>
+                    </a>
+                }
+            }
+        </div>*@
+                    <div class="row mb-5">
+                        <div class="col">
+                            <h5 class="font-weight-bold pt-5 text-color-default">Ofertas</h5>
+                            <ul class="simple-post-list">
+                                @if (ViewBag.productoOferta != null)
+                                {
+                                    @foreach (var item in ViewBag.productoOferta)
+                                    {
+                                        <li>
+                                            <div class="post-image">
+                                                <div class="d-block">
+                                                    <a href="/Productodetalla/index?id=@item.IdProducto">
+                                                        <img alt="" width="60" height="60" class="img-fluid" src="~/img/products/empresa/@ViewBag.empresa/@item.Imagen">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="post-info">
+                                                <a href="/Productodetalla/index?id=@item.IdProducto">@item.NomProducto</a>
+                                                <div class="post-meta text-dark font-weight-semibold">
+                                                    $@item.Precio
+                                                </div>
+                                            </div>
+                                        </li>
+                                    }
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="col-lg-9">
+                <div class="row">
+
+                    <div class="col-lg-9">
+
+                        <table align="center" id="tabla1" style="display: none">
+                            <tr>
+
+                                <td>
+                                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina1">
+                                        <div id="card1" class="card">
+                                            <div id="front1" class="front"></div>
+                                            <div id="back1" class="back"></div>
+                                        </div>
+                                    </div>
+
+                                </td>
+                                <td>
+                                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina2">
+                                        <div id="card2" class="card">
+                                            <div id="front2" class="front"></div>
+                                            <div id="back2" class="back"></div>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina3">
+                                        <div id="card3" class="card">
+                                            <div id="front3" class="front"></div>
+                                            <div id="back3" class="back"></div>
+                                        </div>
+                                    </div>
+                                </td>
+
+
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina4">
+                                        <div id="card4" class="card">
+                                            <div id="front4" class="front"></div>
+                                            <div id="back4" class="back"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina5">
+                                        <div id="card5" class="card">
+                                            <div id="front5" class="front"></div>
+                                            <div id="back5" class="back"></div>
+                                        </div>
+                                    </div>
+                                </td>
+
+
+                                <td>
+                                    <div class="col-12 col-sm-6 col-lg-3 product" id="pagina6">
+                                        <div id="card6" class="card">
+                                            <div id="front6" class="front"></div>
+                                            <div id="back6" class="back"></div>
+                                        </div>
+                                    </div>
+
+                                </td>
+
+
+
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <button id="prev" class="btn-sm btn-primary  height-5  disabled" disabled><i class="fas fa-angle-left"></i></button>
+                                    <button id="next" class="btn-sm btn-primary  height-5 "><i class="fas fa-angle-right"></i></button>
+                                    <div id="np" class="pag footer-bg-color-2">Pág.<span id="pag"></span></div>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </table>
+
+                        </div>
+                    <div class="col-lg-12">
+
+                        <div>
+                            <section style="background-color:white" class="section section-default border-0 my-5   appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="750">
+                                <div class="row center">
+
+                                    <div id="tabla2" class="owl-carousel owl-theme nav-inside mb-0 " data-plugin-options="{'items':2, 'margin':5,'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 4000, 'loop': true }">
+                                        @*<div class="owl-carousel owl-theme dots-morphing" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 3}, '1199': {'items': 3}},  'autoHeight': true, 'margin': 10,'autoplay': true, 'autoplayTimeout': 6000, 'loop': true}">*@
+                                        <div>
+                                            <a href="/Prueba"> <img alt="" class="img-fluid w-100 h-100" src="/img/products/Empresa/@ViewBag.empresa/@ViewBag.imagen3"></a>
+
+                                        </div>
+                                        @if (ViewBag.productos != null)
+                                        {
+                                            @foreach (var item in ViewBag.productos)
+                                            {
+                                                <div>
+                                                    <a href="/Productodetalla/index?id=@item.IdProducto">
+
+                                                        <!--<img alt="" class="img-fluid @*w-50 h-50*@" src="~/img/products/Empresa/@ViewBag.empresa/@item.Imagen">-->
+                                                        <img alt="" width="350" height="200" src="~/img/products/Empresa/@ViewBag.empresa/@item.Imagen">
+
+                                                    </a>
+
+                                                    <h4 class="text-4 text-color-secondary">@item.Descripcion</h4>
+                                                    @*<label>@item.Precio</label>*@
+                                                </div>
+                                                <div class="tp-caption tp-caption-photo-label"
+                                                     data-x="['left','left','left','left']"
+                                                     data-hoffset="['28','28','28','28']"
+                                                     data-y="['bottom','bottom','bottom','bottom']"
+                                                     data-voffset="['28','28','28','28']"
+                                                     data-start="500"
+                                                     data-basealign="slide"
+                                                     data-transform_in="y:[-300%];opacity:0;s:500;">The Happy Family</div>
+                                            }
+                                        }
+
+                                    </div>
+                                    <div class="slider-container rev_slider_wrapper" style="height: 500px;">
+                                        <div id="revolutionSlider" class="slider rev_slider manual" data-version="5.4.8">
+                                            <ul>
+                                                <li data-transition="fade">
+                                                    <img src="img/demos/photography/slides/slide-photography-5.jpg"
+                                                         alt=""
+                                                         data-bgposition="center center"
+                                                         data-bgfit="cover"
+                                                         data-bgrepeat="no-repeat"
+                                                         data-kenburns="on"
+                                                         data-duration="7000"
+                                                         data-ease="Linear.easeNone"
+                                                         data-scalestart="110"
+                                                         data-scaleend="100"
+                                                         data-offsetstart="250 100"
+                                                         data-offsetend="-250 -150"
+                                                         class="rev-slidebg">
+
+                                                    <div class="tp-caption tp-caption-photo-label"
+                                                         data-x="['left','left','left','left']"
+                                                         data-hoffset="['28','28','28','28']"
+                                                         data-y="['bottom','bottom','bottom','bottom']"
+                                                         data-voffset="['28','28','28','28']"
+                                                         data-start="500"
+                                                         data-basealign="slide"
+                                                         data-transform_in="y:[-300%];opacity:0;s:500;">The Explorers</div>
+                                                </li>
+                                                <li data-transition="fade">
+                                                    <img src="img/demos/photography/slides/slide-photography-1.jpg"
+                                                         alt=""
+                                                         data-bgposition="center center"
+                                                         data-bgfit="cover"
+                                                         data-bgrepeat="no-repeat"
+                                                         data-kenburns="on"
+                                                         data-duration="7000"
+                                                         data-ease="Linear.easeNone"
+                                                         data-scalestart="110"
+                                                         data-scaleend="100"
+                                                         data-offsetstart="250 100"
+                                                         data-offsetend="-250 -150"
+                                                         class="rev-slidebg">
+
+                                                    <div class="tp-caption tp-caption-photo-label"
+                                                         data-x="['left','left','left','left']"
+                                                         data-hoffset="['28','28','28','28']"
+                                                         data-y="['bottom','bottom','bottom','bottom']"
+                                                         data-voffset="['28','28','28','28']"
+                                                         data-start="500"
+                                                         data-basealign="slide"
+                                                         data-transform_in="y:[-300%];opacity:0;s:500;">The Happy Family</div>
+                                                </li>
+                                                <li data-transition="fade">
+                                                    <img src="img/demos/photography/slides/slide-photography-2.jpg"
+                                                         alt=""
+                                                         data-bgposition="center center"
+                                                         data-bgfit="cover"
+                                                         data-bgrepeat="no-repeat"
+                                                         data-kenburns="on"
+                                                         data-duration="7000"
+                                                         data-ease="Linear.easeNone"
+                                                         data-scalestart="110"
+                                                         data-scaleend="100"
+                                                         data-offsetstart="250 100"
+                                                         data-offsetend="-250 -150"
+                                                         class="rev-slidebg">
+
+                                                    <div class="tp-caption tp-caption-photo-label"
+                                                         data-x="['left','left','left','left']"
+                                                         data-hoffset="['28','28','28','28']"
+                                                         data-y="['bottom','bottom','bottom','bottom']"
+                                                         data-voffset="['28','28','28','28']"
+                                                         data-start="500"
+                                                         data-basealign="slide"
+                                                         data-transform_in="y:[-300%];opacity:0;s:500;">The Cool Style</div>
+                                                </li>
+                                                <li data-transition="fade">
+                                                    <img src="img/demos/photography/slides/slide-photography-3.jpg"
+                                                         alt=""
+                                                         data-bgposition="center center"
+                                                         data-bgfit="cover"
+                                                         data-bgrepeat="no-repeat"
+                                                         data-kenburns="on"
+                                                         data-duration="7000"
+                                                         data-ease="Linear.easeNone"
+                                                         data-scalestart="110"
+                                                         data-scaleend="100"
+                                                         data-offsetstart="250 100"
+                                                         data-offsetend="-250 -150"
+                                                         class="rev-slidebg">
+
+                                                    <div class="tp-caption tp-caption-photo-label"
+                                                         data-x="['left','left','left','left']"
+                                                         data-hoffset="['28','28','28','28']"
+                                                         data-y="['bottom','bottom','bottom','bottom']"
+                                                         data-voffset="['28','28','28','28']"
+                                                         data-start="500"
+                                                         data-basealign="slide"
+                                                         data-transform_in="y:[-300%];opacity:0;s:500;">The Bride</div>
+                                                </li>
+                                                <li data-transition="fade">
+                                                    <img src="img/demos/photography/slides/slide-photography-4.jpg"
+                                                         alt=""
+                                                         data-bgposition="center center"
+                                                         data-bgfit="cover"
+                                                         data-bgrepeat="no-repeat"
+                                                         data-kenburns="on"
+                                                         data-duration="7000"
+                                                         data-ease="Linear.easeNone"
+                                                         data-scalestart="110"
+                                                         data-scaleend="100"
+                                                         data-offsetstart="250 100"
+                                                         data-offsetend="-250 -150"
+                                                         class="rev-slidebg">
+
+                                                    <div class="tp-caption tp-caption-photo-label"
+                                                         data-x="['left','left','left','left']"
+                                                         data-hoffset="['28','28','28','28']"
+                                                         data-y="['bottom','bottom','bottom','bottom']"
+                                                         data-voffset="['28','28','28','28']"
+                                                         data-start="500"
+                                                         data-basealign="slide"
+                                                         data-transform_in="y:[-300%];opacity:0;s:500;">The Landscape</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </section>
+
+                        </div>
+                        @*abajo*@
+                        <div>
+                            <div clase="row ">
+                                <div class="masonry-loader masonry-loader-showing">
+                                    <div class="row products product-thumb-info-list" data-plugin-masonry data-plugin-options="{'layoutMode': 'fitRows'}">
+                                        <table>
+                                            <tr>
+                                                @if (ViewBag.productoOferta != null)
+                                                {
+                                                    @foreach (var item in ViewBag.productoOferta)
+                                                    {
+                                                        <td>
+
+                                                            <div class="col-sm-12 product">
+                                                                <a href="shop-product-sidebar-left.html">
+                                                                    <span class="onsale">Oferta!</span>
+                                                                </a>
+                                                                <span class="product-thumb-info border-0">
+                                                                    <a href="/Productodetalla/index?id=@item.IdProducto"  class="add-to-cart-product bg-color-primary">
+                                                                    
+                                                                            <span class="text-uppercase text-1">Agregar a carrito</span>
+                                                                        </a>
+                                                                        <a href="/Productodetalla/index?id=@item.IdProducto">
+                                                                            <span class="product-thumb-info-image">
+                                                                                <img alt="" class="img-fluid" src="~/img/products/Empresa/@ViewBag.empresa/@item.Imagen">
+                                                                            </span>
+                                                                        </a>
+                                                                        <span class="product-thumb-info-content product-thumb-info-content pl-0 bg-color-light">
+                                                                            <a href="/Productodetalla/index?id=@item.IdProducto">
+                                                                            <h4 class="text-4 text-primary">@item.NomProducto</h4>
+                                                                            <span class="price">
+                                                                                <del><span class="amount">$@item.Precio*0.90</span></del>
+                                                                                <ins><span class="amount text-dark font-weight-semibold">@item.Precio</span></ins>
+                                                                            </span>
+                                                                            </a>
+                                                                        </span>
+                                                                </span>
+                                                            </div>
+                                                        </td>
+                                                    }}
+                                                    </tr>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                @*abajo*@
+                            </div>
+
+               
+
+
+
+                </div>
+
+            </div>
+    
+        </div>
+</div>
+</div>
+</div>
+    </div>
+<script src="~/ScriptsPage/jsPaginar.js"></script>
+
