@@ -1,7 +1,0 @@
-C:\Users\CRAXO\source\repos\WebTiendaOnline\CapaDatos1\bin\Debug\CapaDatos1.dll
-C:\Users\CRAXO\source\repos\WebTiendaOnline\CapaDatos1\bin\Debug\CapaDatos1.pdb
-C:\Users\CRAXO\source\repos\WebTiendaOnline\CapaDatos1\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
-C:\Users\CRAXO\source\repos\WebTiendaOnline\CapaDatos1\obj\Debug\CapaDatos1.csprojAssemblyReference.cache
-C:\Users\CRAXO\source\repos\WebTiendaOnline\CapaDatos1\obj\Debug\CapaDatos1.csproj.CopyComplete
-C:\Users\CRAXO\source\repos\WebTiendaOnline\CapaDatos1\obj\Debug\CapaDatos1.dll
-C:\Users\CRAXO\source\repos\WebTiendaOnline\CapaDatos1\obj\Debug\CapaDatos1.pdb
